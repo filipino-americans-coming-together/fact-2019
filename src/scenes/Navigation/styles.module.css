@@ -2,4 +2,13 @@
   position: fixed !important;
   width: 100%;
   z-index: 1;
+  background-color: white;
+}
+
+.brand {
+  font-family: 'Fjalla One';
+}
+
+.link {
+  font-family: 'Noto Sans';
 }

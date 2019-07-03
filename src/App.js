@@ -20,6 +20,10 @@ const App = () => {
             integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T'
             crossorigin='anonymous'
           />
+          <link
+            href='https://fonts.googleapis.com/css?family=Fjalla+One|Noto+Sans:400,700&display=swap'
+            rel='stylesheet'
+          />
         </Helmet>
         <Navigation />
         <Route exact path='/' component={Home} />
@@ -40,6 +44,9 @@ const App = () => {
           src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'
           integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM'
           crossorigin='anonymous'>
+        </script>
+        <script
+          src='https://kit.fontawesome.com/bafb654faa.js'>
         </script>
       </Router>
     </>
