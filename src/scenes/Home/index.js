@@ -7,6 +7,8 @@ import Layout from '../../components/Utils/Layout'
 import Section from '../../components/Utils/Section'
 import ImageHeader from '../../components/Utils/ImageHeader'
 
+import YouTube from 'react-youtube'
+
 import Schedule from './components/Schedule'
 
 import styles from './styles.module.css'
@@ -24,7 +26,10 @@ const Home = () => (
         <Section.Body>
           <Container>
             <Row>
-              <Col md={12}>
+              <Col
+                md={12}
+                lg={{ span: 10, offset: 1}}
+              >
                 <p className='text-black-50'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -41,7 +46,20 @@ const Home = () => (
         <Section.Title>FACT 2018</Section.Title>
         <Section.Body>
           <Container>
-
+            <Row>
+              <Col
+                lg={{span: 10, offset: 1}}
+              >
+                <Col md={6}>
+                  <YouTube
+                    videoId={'k6pGrTnh5uQ'}
+                  />
+                </Col>
+                <Col md={6}>
+                  <h3>TFCU </h3>
+                </Col>
+              </Col>
+            </Row>
           </Container>
         </Section.Body>
       </Section>

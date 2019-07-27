@@ -1,7 +1,5 @@
 import React from 'react'
 
-import Container from 'react-bootstrap/Container'
-
 import styles from './styles.module.css'
 
 const Layout = ({ children }) => (

@@ -5,7 +5,6 @@ import Col from 'react-bootstrap/Col'
 import styles from './styles.module.css'
 
 const ImageHeader = ({ imageURL, children }) => {
-  console.log(imageURL)
   const image = {
     backgroundImage: `url(${imageURL})`
   }

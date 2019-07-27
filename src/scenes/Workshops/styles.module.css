@@ -1,0 +1,28 @@
+.container {
+  padding-bottom: 2em;
+}
+.title, .facilitator, .description, .location {
+  font-family: 'Noto Sans';
+}
+.title {
+  font-weight: 700;
+  margin-bottom: .5em;
+}
+
+.facilitator {
+  font-style: italic;
+  margin-bottom: 1.25em;
+}
+
+.description {
+  margin-bottom: 1em !important;
+}
+
+.location {
+  font-weight: 700;
+}
+
+
+.category {
+  padding: .25em;
+}

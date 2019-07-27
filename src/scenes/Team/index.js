@@ -12,7 +12,7 @@ import TeamMember from './components/TeamMember'
 const Team = () => (
   <Layout>
     <ImageHeader imageURL='/img/team.jpg'>
-      <h1>It Takes a Village</h1>
+      <h1>Organizing FACT Takes a Village</h1>
     </ImageHeader>
     <Section>
       <Section.Title>Team</Section.Title>
