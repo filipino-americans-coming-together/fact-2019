@@ -1,12 +1,19 @@
 .section {
   padding-bottom: 3em;
+  padding-top: 3em;
 }
 
 .header {
   font-family: 'Fjalla One';
-  margin-bottom: 1em;
+}
+
+.subtitle {
+  font-family: 'Fjalla One';
+  font-size: 1em;
+  opacity: .8;
 }
 
 .body {
+  padding-top: 1em;
   font-family: 'Noto Sans'
 }

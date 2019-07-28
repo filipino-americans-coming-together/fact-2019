@@ -19,6 +19,14 @@ Section.Title = ({ children }) => (
   </Row>
 )
 
+Section.Subtitle = ({ children }) => (
+  <Row>
+    <Col md={12}>
+      <h1 className={`text-center ${styles.subtitle}`}>{ children }</h1>
+    </Col>
+  </Row>
+)
+
 Section.Body = ({ children }) => (
   <div className={styles.body}>
     { children }

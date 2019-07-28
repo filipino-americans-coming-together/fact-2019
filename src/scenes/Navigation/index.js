@@ -36,7 +36,7 @@ const Navigation = () => (
       </Nav>
       <Link
         className={`nav-link ${styles.link}`}
-        to='/register'>
+        to='/registration'>
         <Button variant='outline-dark'>Register</Button>
       </Link>
     </Container>
