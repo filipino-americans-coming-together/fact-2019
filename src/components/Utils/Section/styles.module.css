@@ -4,16 +4,16 @@
 }
 
 .header {
-  font-family: 'Fjalla One';
+  font-family: 'Quandco';
 }
 
 .subtitle {
-  font-family: 'Fjalla One';
+  font-family: 'Quandco';
   font-size: 1em;
   opacity: .8;
 }
 
 .body {
   padding-top: 1em;
-  font-family: 'Noto Sans'
+  font-family: 'Open Sans'
 }

@@ -14,7 +14,7 @@ const Section = ({ children }) => (
 Section.Title = ({ children }) => (
   <Row>
     <Col md={12}>
-      <h1 className={`text-center ${styles.header}`}>{ children }</h1>
+      <h1 className={`text-center letterSpacing ${styles.header}`}>{ children }</h1>
     </Col>
   </Row>
 )

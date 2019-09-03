@@ -1,7 +1,4 @@
 .background {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 50vh;
   width: 100%;
   margin-bottom: 3em;
@@ -12,6 +9,5 @@
   top: 40%;
   transform: translateY(-40%);
   color: white;
-  font-family: 'Fjalla One';
   font-size: 5em;
 }

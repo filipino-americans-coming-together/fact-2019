@@ -9,7 +9,7 @@ import Nav from 'react-bootstrap/Nav'
 import styles from './styles.module.css'
 
 const Navigation = () => (
-  <Navbar variant='light' className={`${styles.nav}`}>
+  <Navbar variant='light' className={`${styles.nav} boxShadow`}>
     <Container>
       <Link to='/'>
         <Navbar.Brand className={styles.brand}>FACT Conference</Navbar.Brand>
@@ -17,30 +17,32 @@ const Navigation = () => (
       <Nav className='mr-auto'>
         <li className='nav-item'>
           <Link
-            className={`nav-link ${styles.link}`}
+            className={`nav-link fontQuandco ${styles.link}`}
             to='/'
           >Home</Link>
         </li>
         <li className='nav-item'>
           <Link
-            className={`nav-link ${styles.link}`}
+            className={`nav-link fontQuandco disabled ${styles.link}`}
             to='/team'
           >Team</Link>
         </li>
         <li className='nav-item'>
           <Link
-            className={`nav-link ${styles.link}`}
+            className={`nav-link fontQuandco disabled ${styles.link}`}
             to='/workshops'
           >Workshops</Link>
         </li>
       </Nav>
-      <Link
-        className={`nav-link ${styles.link}`}
-        to='/registration'>
-        <Button variant='outline-dark'>Register</Button>
-      </Link>
+      
     </Container>
   </Navbar>
 )
 
+{/* <Link
+        className={`nav-link ${styles.link}`}
+        to='/registration'>
+        <Button variant='outline-dark' className='fontMoam disabled'>Register</Button>
+      </Link> */}
+      
 export default Navigation

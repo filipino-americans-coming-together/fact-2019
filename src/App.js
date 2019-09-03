@@ -3,10 +3,11 @@ import Helmet from 'react-helmet'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import Navigation from './scenes/Navigation'
-import Home from './scenes/Home'
-import Team from './scenes/Team'
-import Workshops from './scenes/Workshops'
-import Registration from './scenes/Registration'
+import Landing from './scenes/LandingPlaceholder'
+// import Home from './scenes/Home'
+// import Team from './scenes/Team'
+// import Workshops from './scenes/Workshops'
+// import Registration from './scenes/Registration'
 
 const App = () => {
   return (
@@ -21,15 +22,23 @@ const App = () => {
             crossOrigin='anonymous'
           />
           <link
-            href='https://fonts.googleapis.com/css?family=Fjalla+One|Noto+Sans:400,700&display=swap'
             rel='stylesheet'
+            type='text/css'
+            href='/stylesheets/global.css'
+          />
+          <link
+            rel='stylesheet'
+            type='text/css'
+            href='/stylesheets/colors.css'
+          />
+          <link
+            rel='stylesheet'
+            type='text/css'
+            href='/stylesheets/fonts.css'
           />
         </Helmet>
         <Navigation />
-        <Route exact path='/' component={Home} />
-        <Route path='/team' component={Team} />
-        <Route path='/workshops' component={Workshops} />
-        <Route path='/registration' component={Registration} />
+        <Route exact path='/' component={Landing} />
         <script
           src='https://code.jquery.com/jquery-3.3.1.slim.min.js'
           integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo'
@@ -54,3 +63,9 @@ const App = () => {
 }
 
 export default App
+
+
+{/* <Route exact path='/' component={Home} />
+<Route path='/team' component={Team} />
+<Route path='/workshops' component={Workshops} />
+<Route path='/registration' component={Registration} /> */}
