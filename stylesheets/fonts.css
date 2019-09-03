@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800&display=swap');
+@font-face {
+    font-family: 'Moam';
+    src: url('/fonts/Moam.otf');
+}
+
+.fontMoam {
+    font-family: 'Moam';
+    letter-spacing: .04em;
+}
+
+@font-face {
+    font-family: 'Quandco';
+    src: url('/fonts/Quandco.otf');
+}
+
+.fontQuandco {
+    font-family: 'Quandco';
+    letter-spacing: .15em;
+}
+
+.fontOpenSans {
+    font-family: 'Open Sans'
+}
