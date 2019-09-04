@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/fact-2019/static/css/main.c2d97303.chunk.css",
-    "main.js": "/fact-2019/static/js/main.af068fdd.chunk.js",
-    "main.js.map": "/fact-2019/static/js/main.af068fdd.chunk.js.map",
+    "main.css": "/fact-2019/static/css/main.341ca5de.chunk.css",
+    "main.js": "/fact-2019/static/js/main.c6c28fcf.chunk.js",
+    "main.js.map": "/fact-2019/static/js/main.c6c28fcf.chunk.js.map",
     "runtime~main.js": "/fact-2019/static/js/runtime~main.8733978b.js",
     "runtime~main.js.map": "/fact-2019/static/js/runtime~main.8733978b.js.map",
-    "static/js/2.6f4ccf3f.chunk.js": "/fact-2019/static/js/2.6f4ccf3f.chunk.js",
-    "static/js/2.6f4ccf3f.chunk.js.map": "/fact-2019/static/js/2.6f4ccf3f.chunk.js.map",
+    "static/js/2.b0a04ab4.chunk.js": "/fact-2019/static/js/2.b0a04ab4.chunk.js",
+    "static/js/2.b0a04ab4.chunk.js.map": "/fact-2019/static/js/2.b0a04ab4.chunk.js.map",
     "index.html": "/fact-2019/index.html",
-    "precache-manifest.564f578812cbeecbfb5fba5d7960fc0f.js": "/fact-2019/precache-manifest.564f578812cbeecbfb5fba5d7960fc0f.js",
+    "precache-manifest.649c9c5a0c2420bba5be5134a99026e7.js": "/fact-2019/precache-manifest.649c9c5a0c2420bba5be5134a99026e7.js",
     "service-worker.js": "/fact-2019/service-worker.js",
-    "static/css/main.c2d97303.chunk.css.map": "/fact-2019/static/css/main.c2d97303.chunk.css.map"
+    "static/css/main.341ca5de.chunk.css.map": "/fact-2019/static/css/main.341ca5de.chunk.css.map",
+    "static/media/fonts.css": "/fact-2019/static/media/Quandco.ec757240.otf"
   }
 }
