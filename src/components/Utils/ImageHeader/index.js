@@ -8,10 +8,7 @@ const ImageHeader = ({ imageURL, children }) => {
   const image = {
     background: 'background: rgb(181,121,174)',
     background: `
-      linear-gradient(0deg, 
-        rgba(181,121,174,1) 0%, 
-        rgba(181,121,174,0.3267682072829131) 52%, 
-        rgba(200,178,223,0.2539390756302521) 100%),
+    linear-gradient(30deg, rgba(241,164,232,.7) 18%, rgba(200,178,223,.5) 86%),
       no-repeat center url(${imageURL})
     `,
     backgroundSize: 'cover',

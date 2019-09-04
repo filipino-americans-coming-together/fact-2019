@@ -21,18 +21,6 @@ const Navigation = () => (
             to='/'
           >Home</Link>
         </li>
-        <li className='nav-item'>
-          <Link
-            className={`nav-link fontQuandco disabled ${styles.link}`}
-            to='/team'
-          >Team</Link>
-        </li>
-        <li className='nav-item'>
-          <Link
-            className={`nav-link fontQuandco disabled ${styles.link}`}
-            to='/workshops'
-          >Workshops</Link>
-        </li>
       </Nav>
       
     </Container>
@@ -44,5 +32,18 @@ const Navigation = () => (
         to='/registration'>
         <Button variant='outline-dark' className='fontMoam disabled'>Register</Button>
       </Link> */}
+
+    //   <li className='nav-item'>
+    //   <Link
+    //     className={`nav-link fontQuandco disabled ${styles.link}`}
+    //     to='/team'
+    //   >Team</Link>
+    // </li>
+    // <li className='nav-item'>
+    //   <Link
+    //     className={`nav-link fontQuandco disabled ${styles.link}`}
+    //     to='/workshops'
+    //   >Workshops</Link>
+    // </li>
       
 export default Navigation

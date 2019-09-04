@@ -9,6 +9,10 @@ import Landing from './scenes/LandingPlaceholder'
 // import Workshops from './scenes/Workshops'
 // import Registration from './scenes/Registration'
 
+import './stylesheets/global.css'
+import './stylesheets/colors.css'
+import './stylesheets/fonts.css'
+
 const App = () => {
   return (
     <>
@@ -20,21 +24,6 @@ const App = () => {
             href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'
             integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T'
             crossOrigin='anonymous'
-          />
-          <link
-            rel='stylesheet'
-            type='text/css'
-            href='/stylesheets/global.css'
-          />
-          <link
-            rel='stylesheet'
-            type='text/css'
-            href='/stylesheets/colors.css'
-          />
-          <link
-            rel='stylesheet'
-            type='text/css'
-            href='/stylesheets/fonts.css'
           />
         </Helmet>
         <Navigation />

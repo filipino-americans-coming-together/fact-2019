@@ -3,10 +3,16 @@
   }
 .date {
     color: white;
-    font-size: .9;
 }
 .subtitle {
     color: white;
-    font-size: .8;
 }
-  
+
+@media(max-width: 576px) {
+    .title {
+        font-size: 1.5rem;
+    }
+    .date, .subtitle {
+        font-soze: 1.2rem;
+    }
+}

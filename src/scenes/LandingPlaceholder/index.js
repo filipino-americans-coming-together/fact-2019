@@ -1,27 +1,24 @@
 import React from 'react'
 
+import UIYoutubeEmbed from '../../UIComponents/UIYoutubeEmbed'
+
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Layout from '../../components/Utils/Layout'
 import Section from '../../components/Utils/Section'
 import ImageHeader from '../../components/Utils/ImageHeader'
+import Footer from '../../components/Footer'
 
-import YouTube from 'react-youtube'
 import styles from './styles.module.css'
-
-const translucentBackground = {
-  background: 'rgba(39,62,84,0.82)',
-  zIndex: '2'
-}
 
 const TeamMember = ({name, position}) => (
   <Col 
-    className='py-3'
+    className='py-3 text-center'
     xs={6}
     md={4}
   >
-    <h5>{name}</h5>
+    <h5 className='text-dark'>{name}</h5>
     <p className='Open Sans'>{position}</p>
   </Col>
 )
@@ -29,10 +26,10 @@ const TeamMember = ({name, position}) => (
 const Landing = () => (
   <>
     <Layout>
-      <ImageHeader imageURL='/img/background.jpg' style={translucentBackground}>
-        <h2 className={`fontMoam ${styles.date}`}>2019</h2>
-        <h1 className={`fontMoam ${styles.title}`}>Filipino-Americans Coming Together</h1>
-        <h2 className={`fontMoam ${styles.subtitle}`}>Conference</h2>
+      <ImageHeader imageURL='/img/background.jpg'>
+        <h3 className={`animated fadeIn fontMoam ${styles.date}`}>2019</h3>
+        <h2 className={`animated fadeIn fontMoam ${styles.title}`}>Filipino-Americans Coming Together</h2>
+        <h3 className={`animated fadeIn fontMoam ${styles.subtitle}`}>Conference</h3>
       </ImageHeader>
       
       <Section>
@@ -50,6 +47,27 @@ const Landing = () => (
                 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
                 non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </Col>
+            </Row>
+          </Container>
+        </Section.Body>
+      </Section>
+      <Section
+      style={{
+        background: `
+        linear-gradient(45deg, rgba(241,164,232,1) 0%, rgba(200,178,223,1) 66%)`
+      }}>
+        <Section.Title className='text-white'>FACT 2018 Recap</Section.Title>
+        <Section.Body>
+          <Container>
+            <Row>
+              <Col 
+                className='mx-auto'
+                md={12}
+                lg={{ span: 10, offset: 1 }}
+              >
+                  <UIYoutubeEmbed videoId='k6pGrTnh5uQ'/>
+                
               </Col>
             </Row>
           </Container>
@@ -81,26 +99,7 @@ const Landing = () => (
           </Container>
         </Section.Body>
       </Section>
-      <Section>
-        <Section.Title>FACT 2018 Recap</Section.Title>
-        <Section.Body>
-          <Container>
-            <Row>
-              <Col 
-                className='mx-auto'
-                md={12}
-                lg={{ span: 10, offset: 1 }}
-              >
-                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                  <YouTube
-                    videoId={'k6pGrTnh5uQ'}
-                  />
-                </div>
-              </Col>
-            </Row>
-          </Container>
-        </Section.Body>
-      </Section>
+      <Footer/>
     </Layout>
   </>
 )
