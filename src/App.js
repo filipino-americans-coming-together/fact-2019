@@ -11,6 +11,9 @@ import Landing from './scenes/LandingPlaceholder'
 
 import './stylesheets/global.css'
 import './stylesheets/colors.css'
+
+import './fonts/Moam.otf'
+import './fonts/Quandco.otf'
 import './stylesheets/fonts.css'
 
 const App = () => {
