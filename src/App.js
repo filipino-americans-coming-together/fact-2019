@@ -11,7 +11,6 @@ import Landing from './scenes/LandingPlaceholder'
 
 import './stylesheets/global.css'
 import './stylesheets/colors.css'
-
 import './stylesheets/fonts.css'
 
 const App = () => {
@@ -55,7 +54,7 @@ const App = () => {
 export default App
 
 
-{/* <Route exact path='/' component={Home} />
-<Route path='/team' component={Team} />
-<Route path='/workshops' component={Workshops} />
-<Route path='/registration' component={Registration} /> */}
+//<Route exact path='/' component={Home} />
+//<Route path='/team' component={Team} />
+//<Route path='/workshops' component={Workshops} />
+//<Route path='/registration' component={Registration} /> 

@@ -18,8 +18,8 @@ const TeamMember = ({name, position}) => (
     xs={6}
     md={4}
   >
-    <h5 className='text-dark'>{name}</h5>
-    <p className='Open Sans'>{position}</p>
+    <h5 className='text-dark fontOpenSans' style={{ fontWeight: 700 }}>{name}</h5>
+    <p className='fontOpenSans'>{position}</p>
   </Col>
 )
 

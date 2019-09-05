@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import Container from 'react-bootstrap/Container'
-import Button from 'react-bootstrap/Button'
+// import Button from 'react-bootstrap/Button'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 
@@ -27,11 +27,11 @@ const Navigation = () => (
   </Navbar>
 )
 
-{/* <Link
+/* <Link
         className={`nav-link ${styles.link}`}
         to='/registration'>
         <Button variant='outline-dark' className='fontMoam disabled'>Register</Button>
-      </Link> */}
+      </Link> */
 
     //   <li className='nav-item'>
     //   <Link

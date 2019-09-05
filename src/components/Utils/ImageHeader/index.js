@@ -6,7 +6,6 @@ import styles from './styles.module.css'
 
 const ImageHeader = ({ imageURL, children }) => {
   const image = {
-    background: 'background: rgb(181,121,174)',
     background: `
     linear-gradient(30deg, rgba(241,164,232,.7) 18%, rgba(200,178,223,.5) 86%),
       no-repeat center url(${imageURL})
