@@ -17,7 +17,7 @@ const Navigation = () => (
       <Nav className='mr-auto'>
         <li className='nav-item'>
           <Link
-            className={`nav-link fontQuandco ${styles.link}`}
+            className={`nav-link fontOpenSans ${styles.link}`}
             to='/'
           >Home</Link>
         </li>
@@ -28,20 +28,20 @@ const Navigation = () => (
 )
 
 /* <Link
-        className={`nav-link ${styles.link}`}
+        className={`nav-link`}
         to='/registration'>
         <Button variant='outline-dark' className='fontMoam disabled'>Register</Button>
       </Link> */
 
     //   <li className='nav-item'>
     //   <Link
-    //     className={`nav-link fontQuandco disabled ${styles.link}`}
+    //     className={`nav-link fontQuandco disabled`}
     //     to='/team'
     //   >Team</Link>
     // </li>
     // <li className='nav-item'>
     //   <Link
-    //     className={`nav-link fontQuandco disabled ${styles.link}`}
+    //     className={`nav-link fontQuandco disabled`}
     //     to='/workshops'
     //   >Workshops</Link>
     // </li>

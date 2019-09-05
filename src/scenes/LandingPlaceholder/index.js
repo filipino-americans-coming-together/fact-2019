@@ -1,10 +1,12 @@
 import React from 'react'
 
-import UIYoutubeEmbed from '../../UIComponents/UIYoutubeEmbed'
-
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+
+import UICard from '../../UIComponents/UICard'
+import UIYoutubeEmbed from '../../UIComponents/UIYoutubeEmbed'
+
 import Layout from '../../components/Utils/Layout'
 import Section from '../../components/Utils/Section'
 import ImageHeader from '../../components/Utils/ImageHeader'
@@ -41,35 +43,39 @@ const Landing = () => (
                 md={12}
                 lg={{ span: 10, offset: 1}}
               >
-                <p className='text-black-50'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p className='text-black-50'>We unite Filipino-Americans. Filipino-Americans Coming Together (FACT) Conference brings together over 1000 Filipino-Americans from the Midwest and around the country into a weekend filled with lasting experiences at the University of Illinois at Urbana-Champaign (UIUC) campus. Through our workshops and variety show, you will rediscover your Filipino-American identity while feeling belonging in a larger community.</p>
               </Col>
             </Row>
           </Container>
         </Section.Body>
       </Section>
-      <Section
-      style={{
-        background: `
-        linear-gradient(45deg, rgba(241,164,232,1) 0%, rgba(200,178,223,1) 66%)`
-      }}>
-        <Section.Title className='text-white'>FACT 2018 Recap</Section.Title>
+      <Section>
         <Section.Body>
           <Container>
-            <Row>
-              <Col 
-                className='mx-auto'
-                md={12}
-                lg={{ span: 10, offset: 1 }}
-              >
-                  <UIYoutubeEmbed videoId='k6pGrTnh5uQ'/>
+            <Col 
+              className='mx-auto'
+              md={12}
+              lg={{ span: 10, offset: 1 }}
+            >
+              <UICard>
+                <UICard.Header>
+                  <UICard.Title>FACT 2018 Recap</UICard.Title>
+                </UICard.Header>
+                <UICard.Body>
+                  <Row>
+                    <Col 
+                      className='mx-auto'
+                      md={12}
+                      lg={{ span: 10, offset: 1 }}
+                    >
+                        <UIYoutubeEmbed videoId='k6pGrTnh5uQ'/>
+                      
+                    </Col>
+                  </Row>
+                </UICard.Body>
                 
-              </Col>
-            </Row>
+              </UICard>
+            </Col>
           </Container>
         </Section.Body>
       </Section>
@@ -96,6 +102,36 @@ const Landing = () => (
                 </Row>
               </Col>
             </Row>
+          </Container>
+        </Section.Body>
+      </Section>
+      <Section>
+        <Section.Body>
+          <Container>
+            <Col 
+              className='mx-auto'
+              md={12}
+              lg={{ span: 10, offset: 1 }}
+            >
+              <UICard background={`linear-gradient(45deg, rgba(223,242,147,1) 18%, rgba(242,252,160,1) 86%)`}>
+                <UICard.Header>
+                  <UICard.Title className='text-dark'>Stay In Touch</UICard.Title>
+                  <UICard.Subtitle className='text-dark'>Get updates about FACT 2019</UICard.Subtitle>
+                </UICard.Header>
+                <UICard.Body>
+                  <Row>
+                    <Col 
+                      className='mx-auto'
+                      md={12}
+                      lg={{ span: 10, offset: 1 }}
+                    >
+                        <UIYoutubeEmbed videoId='k6pGrTnh5uQ'/>
+                      
+                    </Col>
+                  </Row>
+                </UICard.Body>
+              </UICard>
+            </Col>
           </Container>
         </Section.Body>
       </Section>
