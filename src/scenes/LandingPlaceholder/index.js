@@ -89,12 +89,13 @@ const Landing = () => (
                   <TeamMember name='Caitlyn Anonuevo' position='Team FACT Manager' />
                   <TeamMember name='Carmel Bumaa' position='Marketing' />
                   <TeamMember name='David Ko' position='Media' />
+                  <TeamMember name='Emily Oh' position='V-Show Co-Coordinator' />
                   <TeamMember name='Jasmine Cuasay' position='Hospitality' />
                   <TeamMember name='Molly Wong' position='Hospitality' />
                   <TeamMember name='Priscilla Nguyen' position='Team FACT Manager' />
                   <TeamMember name='Reggie Pagala' position='Campus Ambassador' />
                   <TeamMember name='Sonica Kagemiya' position='Marketing' />
-
+                  <TeamMember name='Vincent Wu' position='V-Show Co-Coordinator' />
                 </Row>
               </Col>
             </Row>
