@@ -13,7 +13,7 @@ const UICard = ({ background, children, className, ...rest }) => (
       background: background ? background : DEFAULT_BACKGROUND
     }}
     className={
-      classNames('py-5 boxShadow', styles.card, className)
+      classNames('py-2 boxShadow', styles.card, className)
     } 
     {...rest}
   >
@@ -25,7 +25,7 @@ const UICard = ({ background, children, className, ...rest }) => (
 
 UICard.Header = ({ children, className, ...rest }) => (
   <div 
-    className={classNames('pb-5 text-white', className)} 
+    className={classNames('pb-3 text-white', className)} 
     {...rest}
   >
     {children}

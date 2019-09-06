@@ -1,9 +1,11 @@
 import React from 'react'
 
+import Button from 'react-bootstrap/Button'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
+import UIButton from '../../UIComponents/UIButton'
 import UICard from '../../UIComponents/UICard'
 import UIYoutubeEmbed from '../../UIComponents/UIYoutubeEmbed'
 
@@ -52,30 +54,24 @@ const Landing = () => (
       <Section>
         <Section.Body>
           <Container>
-            <Col 
-              className='mx-auto'
-              md={12}
-              lg={{ span: 10, offset: 1 }}
-            >
-              <UICard>
-                <UICard.Header>
-                  <UICard.Title>FACT 2018 Recap</UICard.Title>
-                </UICard.Header>
-                <UICard.Body>
-                  <Row>
-                    <Col 
-                      className='mx-auto'
-                      md={12}
-                      lg={{ span: 10, offset: 1 }}
-                    >
-                        <UIYoutubeEmbed videoId='k6pGrTnh5uQ'/>
-                      
-                    </Col>
-                  </Row>
-                </UICard.Body>
-                
-              </UICard>
-            </Col>
+            <UICard>
+              <UICard.Header>
+                <UICard.Title>FACT 2018 Recap</UICard.Title>
+              </UICard.Header>
+              <UICard.Body>
+                <Row>
+                  <Col 
+                    className='mx-auto'
+                    md={12}
+                    lg={{ span: 10, offset: 1 }}
+                  >
+                      <UIYoutubeEmbed videoId='k6pGrTnh5uQ'/>
+                    
+                  </Col>
+                </Row>
+              </UICard.Body>
+              
+            </UICard>
           </Container>
         </Section.Body>
       </Section>
@@ -108,30 +104,23 @@ const Landing = () => (
       <Section>
         <Section.Body>
           <Container>
-            <Col 
-              className='mx-auto'
-              md={12}
-              lg={{ span: 10, offset: 1 }}
-            >
-              <UICard background={`linear-gradient(45deg, rgba(223,242,147,1) 18%, rgba(242,252,160,1) 86%)`}>
-                <UICard.Header>
-                  <UICard.Title className='text-dark'>Stay In Touch</UICard.Title>
-                  <UICard.Subtitle className='text-dark'>Get updates about FACT 2019</UICard.Subtitle>
-                </UICard.Header>
-                <UICard.Body>
-                  <Row>
-                    <Col 
-                      className='mx-auto'
-                      md={12}
-                      lg={{ span: 10, offset: 1 }}
-                    >
-                        <UIYoutubeEmbed videoId='k6pGrTnh5uQ'/>
-                      
-                    </Col>
-                  </Row>
-                </UICard.Body>
-              </UICard>
-            </Col>
+            <UICard background={`linear-gradient(45deg, rgba(223,242,147,1) 18%, rgba(242,252,160,1) 86%)`}>
+              <UICard.Header>
+                <UICard.Title className='text-dark'>Stay In Touch</UICard.Title>
+                <UICard.Subtitle className='text-dark'>Get updates about FACT 2019</UICard.Subtitle>
+              </UICard.Header>
+              <UICard.Body>
+                <Row>
+                  <Col 
+                    className='mx-auto'
+                    md={12}
+                    lg={{ span: 4, offset: 4}}
+                  >
+                    <UIButton block>Subscribe to Newsletter</UIButton>
+                  </Col>
+                </Row>
+              </UICard.Body>
+            </UICard>
           </Container>
         </Section.Body>
       </Section>

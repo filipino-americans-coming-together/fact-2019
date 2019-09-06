@@ -1,0 +1,14 @@
+.button {
+  border: none !important;
+  border-radius: 1em !important;
+  padding: 1em !important;
+  font-weight: 700 !important;
+  background-color: black !important;
+  color: white !important;
+  transform: scale(1) !important;
+}
+.button:hover {
+  transform: scale(1.005) !important;
+  color: #black !important;
+  background-color: white !important;
+}
