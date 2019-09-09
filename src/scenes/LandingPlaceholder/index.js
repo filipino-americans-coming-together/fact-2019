@@ -105,7 +105,7 @@ const Landing = () => (
       <Section>
         <Section.Body>
           <Container>
-            <UICard background={`linear-gradient(45deg, rgba(223,242,147,1) 18%, rgba(242,252,160,1) 86%)`}>
+            <UICard background={`linear-gradient(45deg, rgba(216,245,157,1) 18%, rgba(236,255,206,1) 86%)`}>
               <UICard.Header>
                 <UICard.Title className='text-dark'>Stay In Touch</UICard.Title>
                 <UICard.Subtitle className='text-dark'>Get updates about FACT 2019</UICard.Subtitle>
