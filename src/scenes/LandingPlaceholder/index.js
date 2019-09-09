@@ -117,7 +117,7 @@ const Landing = () => (
                     md={12}
                     lg={{ span: 4, offset: 4}}
                   >
-                    <UIButton block>Subscribe to Newsletter</UIButton>
+                    <UIButton href='https://fact2019.typeform.com/to/W3Dw7G' target='_blank' block>Subscribe to Updates</UIButton>
                   </Col>
                 </Row>
               </UICard.Body>

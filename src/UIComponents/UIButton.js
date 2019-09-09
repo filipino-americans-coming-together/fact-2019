@@ -5,12 +5,13 @@ import Button from 'react-bootstrap/Button'
 
 import styles from './UIButton.module.css'
 
-const UIButton = ({ children }) => (
+const UIButton = ({ children, ...rest }) => (
   <Button 
     className={classNames(
       'fontOpenSans',
       styles.button,
     )}
+    {...rest}
     block
   >
     {children}

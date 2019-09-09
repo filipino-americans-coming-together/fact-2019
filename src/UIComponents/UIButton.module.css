@@ -9,6 +9,6 @@
 }
 .button:hover {
   transform: scale(1.005) !important;
-  color: #black !important;
+  color: black !important;
   background-color: white !important;
 }
