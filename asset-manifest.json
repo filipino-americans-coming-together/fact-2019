@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.04942c64.chunk.css",
-    "main.js": "/static/js/main.94ef20d1.chunk.js",
-    "main.js.map": "/static/js/main.94ef20d1.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.fedfaf27.chunk.js": "/static/js/2.fedfaf27.chunk.js",
-    "static/js/2.fedfaf27.chunk.js.map": "/static/js/2.fedfaf27.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.0682819f06cafc3d9ee5fb3a5a813b91.js": "/precache-manifest.0682819f06cafc3d9ee5fb3a5a813b91.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.04942c64.chunk.css.map": "/static/css/main.04942c64.chunk.css.map",
-    "static/media/fonts.css": "/static/media/Quandco.ec757240.otf"
+    "main.css": "fact.psauiuc.org/static/css/main.a9297639.chunk.css",
+    "main.js": "fact.psauiuc.org/static/js/main.01dca2bc.chunk.js",
+    "main.js.map": "fact.psauiuc.org/static/js/main.01dca2bc.chunk.js.map",
+    "runtime~main.js": "fact.psauiuc.org/static/js/runtime~main.3b1f8f2d.js",
+    "runtime~main.js.map": "fact.psauiuc.org/static/js/runtime~main.3b1f8f2d.js.map",
+    "static/js/2.fedfaf27.chunk.js": "fact.psauiuc.org/static/js/2.fedfaf27.chunk.js",
+    "static/js/2.fedfaf27.chunk.js.map": "fact.psauiuc.org/static/js/2.fedfaf27.chunk.js.map",
+    "index.html": "fact.psauiuc.org/index.html",
+    "precache-manifest.4f37a8ac5b5c6c9ceb8b0c9aa41f779a.js": "fact.psauiuc.org/precache-manifest.4f37a8ac5b5c6c9ceb8b0c9aa41f779a.js",
+    "service-worker.js": "fact.psauiuc.org/service-worker.js",
+    "static/css/main.a9297639.chunk.css.map": "fact.psauiuc.org/static/css/main.a9297639.chunk.css.map",
+    "static/media/fonts.css": "fact.psauiuc.org/static/media/Quandco.ec757240.otf"
   }
 }
