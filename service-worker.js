@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "fact.psauiuc.org/precache-manifest.4f37a8ac5b5c6c9ceb8b0c9aa41f779a.js"
+  "fact.psauiuc.org/precache-manifest.17a87247ed4960d3f52429834e3a95a3.js"
 );
 
 self.addEventListener('message', (event) => {
