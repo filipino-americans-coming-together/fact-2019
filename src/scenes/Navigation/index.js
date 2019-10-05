@@ -21,6 +21,12 @@ const Navigation = () => (
             to='/'
           >Home</Link>
         </li>
+        <li className='nav-item'>
+          <Link 
+            className={`nav-link fontOpenSans ${styles.link}`}
+            to='/team'
+          >Team</Link>
+        </li>
       </Nav>
       
     </Container>

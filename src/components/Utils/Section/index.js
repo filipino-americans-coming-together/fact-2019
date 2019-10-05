@@ -7,8 +7,8 @@ import Row from 'react-bootstrap/Row'
 
 import styles from './styles.module.css'
 
-const Section = ({ children, ...rest }) => (
-  <section className='py-5' {...rest}>
+const Section = ({ children, className, ...rest }) => (
+  <section className={classNames('py-5', className)} {...rest}>
     { children }
   </section>
 )

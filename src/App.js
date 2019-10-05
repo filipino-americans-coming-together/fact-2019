@@ -1,12 +1,11 @@
 import React from 'react'
-import Helmet from 'react-helmet'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import Navigation from './scenes/Navigation'
 import Landing from './scenes/LandingPlaceholder'
 // import Home from './scenes/Home'
-// import Team from './scenes/Team'
-// import Workshops from './scenes/Workshops'
+import TeamPage from './scenes/team/TeamPage'
+import Workshops from './scenes/Workshops'
 // import Registration from './scenes/Registration'
 
 import './stylesheets/global.css'
@@ -17,18 +16,10 @@ const App = () => {
   return (
     <>
       <Router>
-        <Helmet>
-          
-
-          <link
-            rel='stylesheet'
-            href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'
-            integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T'
-            crossOrigin='anonymous'
-          />
-        </Helmet>
         <Navigation />
         <Route exact path='/' component={Landing} />
+        <Route path='/team' component={TeamPage} />
+        <Route path='/workshops' component={Workshops} />
         <script
           src='https://code.jquery.com/jquery-3.3.1.slim.min.js'
           integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo'
@@ -53,9 +44,3 @@ const App = () => {
 }
 
 export default App
-
-
-//<Route exact path='/' component={Home} />
-//<Route path='/team' component={Team} />
-//<Route path='/workshops' component={Workshops} />
-//<Route path='/registration' component={Registration} /> 

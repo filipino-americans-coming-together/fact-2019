@@ -15,17 +15,6 @@ import Footer from '../../components/Footer'
 
 import styles from './styles.module.css'
 
-const TeamMember = ({name, position}) => (
-  <Col 
-    className='py-3 text-center'
-    xs={6}
-    md={4}
-  >
-    <h5 className='text-dark fontOpenSans' style={{ fontWeight: 700 }}>{name}</h5>
-    <p className='fontOpenSans'>{position}</p>
-  </Col>
-)
-
 const Landing = () => (
   <>
     <Layout>
@@ -51,63 +40,27 @@ const Landing = () => (
         </Section.Body>
       </Section>
       <Section>
+        <Section.Title>Fact 2018 Recap</Section.Title>
+        <Section.Body>
+          <Container>
+              <Col 
+                className='mx-auto'
+                md={12}
+                lg={{ span: 10, offset: 1 }}
+              >
+                  <UIYoutubeEmbed videoId='k6pGrTnh5uQ'/>
+                
+              </Col>
+          </Container>
+        </Section.Body>
+      </Section>
+      <Section>
         <Section.Body>
           <Container>
             <UICard>
               <UICard.Header>
-                <UICard.Title>FACT 2018 Recap</UICard.Title>
-              </UICard.Header>
-              <UICard.Body>
-                <Row>
-                  <Col 
-                    className='mx-auto'
-                    md={12}
-                    lg={{ span: 10, offset: 1 }}
-                  >
-                      <UIYoutubeEmbed videoId='k6pGrTnh5uQ'/>
-                    
-                  </Col>
-                </Row>
-              </UICard.Body>
-              
-            </UICard>
-          </Container>
-        </Section.Body>
-      </Section>
-      <Section>
-        <Section.Title>Team</Section.Title>
-        <Section.Body>
-          <Container>
-            <Row>
-              <Col xs={{ span: 10, offset: 1 }}>
-                <Row>
-                  <TeamMember name='Anthony Mendez' position='Co-Coordinator' />
-                  <TeamMember name='Denzel Cruz' position='Co-Coordinator' />
-                  <TeamMember name='Erika Saligan' position='Co-Coordinator' />
-                  <TeamMember name='Alpri Else' position='Information Technology' />
-                  <TeamMember name='Caitlyn Anonuevo' position='Team FACT Manager' />
-                  <TeamMember name='Carmel Bumaa' position='Marketing' />
-                  <TeamMember name='David Ko' position='Media' />
-                  <TeamMember name='Emily Oh' position='V-Show Co-Coordinator' />
-                  <TeamMember name='Jasmine Cuasay' position='Hospitality' />
-                  <TeamMember name='Molly Wong' position='Hospitality' />
-                  <TeamMember name='Priscilla Nguyen' position='Team FACT Manager' />
-                  <TeamMember name='Reggie Pagala' position='Campus Ambassador' />
-                  <TeamMember name='Sonica Kagemiya' position='Marketing' />
-                  <TeamMember name='Vincent Wu' position='V-Show Co-Coordinator' />
-                </Row>
-              </Col>
-            </Row>
-          </Container>
-        </Section.Body>
-      </Section>
-      <Section>
-        <Section.Body>
-          <Container>
-            <UICard background={`linear-gradient(45deg, rgba(216,245,157,1) 18%, rgba(236,255,206,1) 86%)`}>
-              <UICard.Header>
-                <UICard.Title className='text-dark'>Stay In Touch</UICard.Title>
-                <UICard.Subtitle className='text-dark'>Get updates about FACT 2019</UICard.Subtitle>
+                <UICard.Title>Stay In Touch</UICard.Title>
+                <UICard.Subtitle>Get updates about FACT 2019</UICard.Subtitle>
               </UICard.Header>
               <UICard.Body>
                 <Row>

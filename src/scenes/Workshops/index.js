@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react'
-import axios from 'axios'
+import React, { useState } from 'react'
+import { TransitionMotion, spring } from 'react-motion';
 
 import Button from 'react-bootstrap/Button'
 import Col from 'react-bootstrap/Col'
@@ -10,145 +10,141 @@ import FormControl from 'react-bootstrap/FormControl'
 import InputGroup from 'react-bootstrap/InputGroup'
 import Row from 'react-bootstrap/Row'
 
-import ImageHeader from '../../components/Utils/ImageHeader'
 import Layout from '../../components/Utils/Layout'
 import Section from '../../components/Utils/Section'
+import WorkshopSession from './WorkShopSession'
 
-import styles from './styles.module.css'
+import { EVENTS } from '../../constants/events'
+import WorkshopList from '../../constants/workshops'
 
-const Workshop = ({ workshop }) => {
-  const { name, facilitator, description, location } = workshop
-  console.log(name)
-  return (
-    <Col
-      className={styles.container}
-      sm={12}
-      md={6}
-      xl={4}
-    >
-      <h5 className={styles.title}>{name}</h5>
-      <h6 className={styles.facilitator}>{facilitator}</h6>
-      <p className={styles.description}>{description}</p>
-      <p className={styles.location}>Location: {location}</p>
-    </Col>
-  )
+const ALL_WORKSHOPS = 'ALL_WORKSHOPS'
+
+const getWorkshops = (filters) => {
+  if (filters === undefined) {
+    return WorkshopList
+  }
+  return WorkshopList.filter(workshop => {
+    return workshop.session === filters.session || filters.session === ALL_WORKSHOPS
+  })
 }
 
-const Workshops = () => {
-  const [requestedData, setRequestedData] = useState(false)
-  const [recievedData, setRecievedData] = useState(false)
-  const [workshops, setWorkshops] = useState([])
-
-  useEffect(() => {
-    const getData = async () => {
-      setRequestedData(true)
-      const response = await axios.get('/data/fact2018.json')
-      setRecievedData(true)
-      setWorkshops(response.data.workshops)
-    }
-
-    if (!requestedData) {
-      getData()
-    }
-  })
-
-  const [searchFilter, setSearchFilter] = useState('All Workshop Sessions')
-  const handleSearchDropdownSelect = (e) => {
-    console.log(e)
+const Workshops = () => {  
+  const [focusedWorkshop, setFocusedWorkshop] = useState('') 
+  const [searchFilter, setSearchFilter] = useState(ALL_WORKSHOPS)
+  const handleSearchDropdownSelect = (eventKey) => {
+    setSearchFilter(eventKey)
   }
   const renderSearchInput = () => {
+    const translate = {
+      [ALL_WORKSHOPS]: "All Workshop Sessions",
+      [EVENTS.WORKSHOP_SESSION_01]: "Session 1",
+      [EVENTS.WORKSHOP_SESSION_02]: "Session 2",
+      [EVENTS.WORKSHOP_SESSION_03]: "Session 3",
+    }
     return (
-      <Col
-        className='mb-4'
-        md={12}
-        lg={{ span: 10, offset: 1 }}
+      <div
+        className='mb-4 mx-auto'
       >
         <InputGroup>
           <DropdownButton
-            title={searchFilter}
+            title={translate[searchFilter]}
             as={InputGroup.Prepend}
             variant='outline-dark'
             onSelect={handleSearchDropdownSelect}
           >
-            <Dropdown.Item eventKey='All Workshop Sessions'>All Workshop Sessions</Dropdown.Item>
+            <Dropdown.Item eventKey={ALL_WORKSHOPS}>All Workshop Sessions</Dropdown.Item>
             <Dropdown.Divider />
-            <Dropdown.Item eventKey='Session 1'>Session 1</Dropdown.Item>
-            <Dropdown.Item eventKey='Session 2'>Session 2</Dropdown.Item>
-            <Dropdown.Item eventKey='Session 3'>Session 3</Dropdown.Item>
+            <Dropdown.Item 
+              eventKey={EVENTS.WORKSHOP_SESSION_01}
+            >
+              Session 1</Dropdown.Item>
+            <Dropdown.Item 
+              eventKey={EVENTS.WORKSHOP_SESSION_02}
+            >
+              Session 2</Dropdown.Item>
+            <Dropdown.Item 
+              eventKey={EVENTS.WORKSHOP_SESSION_03}
+            >
+              Session 3</Dropdown.Item>
           </DropdownButton>
-          <FormControl
-
-          />
         </InputGroup>
-      </Col>
+      </div>
     )
   }
 
-  const renderCategoryFilter = () => {
-    const categories = ['Dance', 'Culinary Arts', 'Relationships', 'Music', 'Professional Development', 'Cultural Identity']
-    return (
-      <Col
-        className='mb-5'
-        md={12}
-        lg={{ span: 10, offset: 1 }}
-      >
-        <h5>Category</h5>
-        <Container>
-          <Row>
-            { categories.map(category => {
-
-              return (
-                <div className={styles.category}>
-                  <Button variant='outline-dark'>{category}</Button>
-                </div>
-              )
-            })}
-          </Row>
-        </Container>
-      </Col>
-    )
+  const getDefaultStyles = () => {
+    return getWorkshops().map(workshop => ({
+      key: workshop.id,
+      data: {
+        ...workshop
+      },
+      style: {
+        maxHeight: 0,
+        opacity: 0
+      }
+    }))
   }
 
-  const renderContent = () => {
-    let content = null
-    if (!recievedData) {
-      content = (
-        <Col
-          className='text-center'
-          md={12}
-          lg={{ span: 8, offset: 2 }}
-        >
-          <h3>Loading...</h3>
-        </Col>
-      )
-    } else {
-      content = workshops.map(workshop => {
-        return (
-          <Workshop
-            workshop={workshop}
-            key={`${workshop.code}`}
-          />
-        )
-      })
-    }
-    return content
+  const getStyles = () => {
+    return getWorkshops({ session: searchFilter }).map(workshop => ({
+      key: workshop.id,
+      data: {
+        ...workshop,
+        handleClick: () => {
+          if (workshop.id === focusedWorkshop) {
+            setFocusedWorkshop('')
+          } else {
+            setFocusedWorkshop(workshop.id)
+          }
+        },
+        isSelected: workshop.id === focusedWorkshop
+      },
+      style: {
+        maxHeight: workshop.id === focusedWorkshop ? spring(2400) : spring(800),
+        opacity: spring(1),
+      }
+    }))
   }
 
   return (
-    <Layout>
-      <ImageHeader imageURL='/img/background/15.jpg'/>
+    <Layout style={{ paddingTop: '5vh'}}>
       <Section>
         <Section.Title>Workshops</Section.Title>
         <Section.Body>
           <Container>
-            <Row>
+            <Row className='pb-2'>
               { renderSearchInput() }
             </Row>
             <Row>
-              { renderCategoryFilter() }
-            </Row>
-            <Row>
-              { renderContent() }
+              <Col lg={{ span: 8, offset: 2 }}>
+                <TransitionMotion
+                  defaultStyles={getDefaultStyles()}
+                  styles={getStyles()}
+                  willEnter={() => ({
+                    maxHeight: 0,
+                    opacity: 0
+                  })}
+                  willLeave={() => ({
+                    maxHeight: spring(0),
+                    opacity: spring(0)
+                  })}
+                >
+                  { props => (
+                    <Row>
+                      {
+                        props.map(({ data, style }) => {
+
+                          return (
+                            <Col md={12} style={style}>
+                              <WorkshopSession workshop={data}/>
+                            </Col>
+                          )
+                        })
+                      }
+                    </Row>
+                  )}
+                </TransitionMotion>
+              </Col>
             </Row>
           </Container>
         </Section.Body>

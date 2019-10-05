@@ -4,7 +4,7 @@
 }
 
 .titleContainer {
-  position: absolute;
+  position: relative;
   top: 40%;
   transform: translateY(-40%);
   color: white;
