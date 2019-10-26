@@ -56,7 +56,7 @@ const TeamPage = () => (
             position='Information Technology'
             year='Junior'
             major='Computer Science'
-            bio='Alpri is passionate about creating technology in the interest of solving people&apos;s problems. He&apos;s currently taking the semester off to work for a tech company in Boston that democratizes running a business by making the tools and knowledge necessary to start a business more accessible. In his free time, he&apos;s developed applications to help professors teach more effectively, aid students better find courses that align with their interests and career goals, and helped organize the largest student-run technology conference. To relax, Alpri loves watching Netflix, drinking boba, and exploring new places. He&apos;s excited to grab some Latea and talk about Stranger Things and Black Mirror with delegates going to FACT 2019.'
+            bio='Alpri is passionate about creating technology in the interest of solving people&apos;s problems. He&apos;s currently taking the semester off to work as a Frontend Software Engineer for a tech company in Boston that helps thousands of organizations grow better. In his free time, he&apos;s developed applications to help professors teach more effectively, aid students better find courses that align with their interests and career goals, and helped organize the largest student-run technology conference in the Midwest. To relax, Alpri loves watching Netflix, drinking boba, and exploring new places, always bringing his Sony a6500 to take pictures. He&apos;s excited to grab some Latea and talk about Stranger Things and Black Mirror with delegates going to FACT 2019!'
             imageURL='/img/fact-pack/Alpri.jpeg'
           />
           <TeamMember 
@@ -85,7 +85,7 @@ const TeamPage = () => (
           />
           <TeamMember 
             name='Emily Oh'
-            position='Variety Show Coordinator '
+            position='Variety Show Coordinator'
             year='Junior'
             major='Education Major and Communication Minor'
             bio='Emily&apos;s passion and joy in life is to teach the youngins and seeing each and everyone of her students grow in different ways. She is currently a junior teaching second graders at Kenwood Elementary School. Emily desires to become a traveling teacher and part take in multiple non-profit organizations that requires her to travel to third world countries and teach the students who does not have opportunity to do so. Emily is juggling working, studying, and being a sister of Alpha Phi Gamma along with her duties of being v-show coordinator. In her free time, she loves to hibernate by watching Black Mirror, sleeping, exercising, and going on long walks. She is STOKED to meet new people and see how FACT this year will benefit each individuals :) '
@@ -107,6 +107,14 @@ const TeamPage = () => (
             bio='Molly has been involved with UIUC&rsquo;s Philippine Student Association since her freshman year and has served as a former Alumni Chair. She spent the past summer working as a dental assistant at two dental offices while also studying for the DAT (Dental Admissions Test), which she recently took. Molly loves to devote her time to serving others, having also gone on a medical-dental service trip to Honduras and volunteered at Willow Creek Community Church&rsquo;s dental clinic this past summer. Outside of PSA, Molly is a busy pre-dental student; she is a current LAS James Scholar and is a Dean&rsquo;s List regular. When she is not studying for her classes, she is working as part of the MCB Lab Prep Staff or at the gym powerlifting. Molly aspires to become a dental practice owner, hoping to expand her mother and brother&rsquo;s dental practice as well as continuing to serve impoverished communities on dental service trips. She is so excited to meet everyone at FACT!'
             imageURL='/img/fact-pack/Molly.jpeg'
           />
+          <TeamMember
+            name='Priscilla Nguyen'
+            position='TeamFACT Manager'
+            year='Junior'
+            major='Human Development and Family Studies'
+            bio='Priscilla Nguyen has been involved in cultural organizations throughout all her life and is excited to be able to be a part of this year&apos;s FACT. Being involved with PSA and Barkada has only strengthened her passion to be involved in cultural awareness and has been a pretty integral part of her life. Currently a junior, she hopes to one day go into Child Life or daycare. Outside of being TeamFACT Manager, she is also a sister of alpha Kappa Delta Phi and also works at a ramen shop. She can&apos;t wait for this year&apos;s FACT and to see all the new and returning faces.'
+            imageURL='/img/fact-pack/Priscilla.jpeg'
+          />
           <TeamMember 
             name='Reggie Pagala'
             position='Campus Ambassador'
@@ -122,6 +130,14 @@ const TeamPage = () => (
             major='English &amp; History'
             bio='With a deep passion for education, social justice, and graphic design, FACT was the perfect project to invest time in for Sonica. She is most excited to continue building her network of Filipino writers and creators from the Midwest. Outside of FACT, she stands as PSA&apos;s Secretary and library assistant in the Illinois History and Lincoln Collections. When she&apos;s not hanging out with her co-chair, Carmel, she can be found bullet journaling or playing Splatoon. Her favorite genre of music is lofi hip hop beats to study/relax to, while her favorite artists include Marina (formerly of the Diamonds), Catfish &amp; the Bottlemen, and Bleachers. '
             imageURL='/img/fact-pack/Sonica.jpeg'
+          />
+          <TeamMember
+            name='Vincent Wu'
+            position='Variety Show Coordinator'
+            year='Junior'
+            major='Music Technology'
+            bio='Vincent is a passionate musician and artist with an appreciation for culture. His dream job is to make music with a production company such as 88rising, blending Asian culture with his passion. In his free time, he makes music and dances with various groups across campus. He is a fan of the Netflix series Lucifer and The Good Place, and is an avid fan of the anime “Jojo’s Bizarre Adventure”.'
+            imageURL='/img/fact-pack/Vincent.jpeg'
           />
           <Footer/>
         </Container>

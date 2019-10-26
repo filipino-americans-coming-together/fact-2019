@@ -23,7 +23,6 @@ const Landing = () => (
         <h2 className={`animated fadeIn fontMoam ${styles.title}`}>Filipino-Americans Coming Together</h2>
         <h3 className={`animated fadeIn fontMoam ${styles.subtitle}`}>Conference</h3>
       </ImageHeader>
-      
       <Section>
         <Section.Title>About</Section.Title>
         <Section.Body>
@@ -40,6 +39,29 @@ const Landing = () => (
         </Section.Body>
       </Section>
       <Section>
+        <Section.Body>
+          <Container>
+            <UICard>
+              <UICard.Header>
+                <UICard.Title>Register for FACT 2019</UICard.Title>
+                <UICard.Subtitle>Nov 8th - Nov 10th</UICard.Subtitle>
+              </UICard.Header>
+              <UICard.Body>
+                <Row>
+                  <Col 
+                    className='mx-auto'
+                    md={12}
+                    lg={{ span: 4, offset: 4}}
+                  >
+                    <UIButton href='https://forms.gle/LkrFdZWTebziQugp8' target='_blank' block>Register</UIButton>
+                  </Col>
+                </Row>
+              </UICard.Body>
+            </UICard>
+          </Container>
+        </Section.Body>
+      </Section>
+      <Section>
         <Section.Title>Fact 2018 Recap</Section.Title>
         <Section.Body>
           <Container>
@@ -51,29 +73,6 @@ const Landing = () => (
                   <UIYoutubeEmbed videoId='k6pGrTnh5uQ'/>
                 
               </Col>
-          </Container>
-        </Section.Body>
-      </Section>
-      <Section>
-        <Section.Body>
-          <Container>
-            <UICard>
-              <UICard.Header>
-                <UICard.Title>Stay In Touch</UICard.Title>
-                <UICard.Subtitle>Get updates about FACT 2019</UICard.Subtitle>
-              </UICard.Header>
-              <UICard.Body>
-                <Row>
-                  <Col 
-                    className='mx-auto'
-                    md={12}
-                    lg={{ span: 4, offset: 4}}
-                  >
-                    <UIButton href='https://fact2019.typeform.com/to/W3Dw7G' target='_blank' block>Subscribe to Updates</UIButton>
-                  </Col>
-                </Row>
-              </UICard.Body>
-            </UICard>
           </Container>
         </Section.Body>
       </Section>

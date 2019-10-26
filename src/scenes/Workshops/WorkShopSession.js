@@ -68,19 +68,10 @@ const AboutTheFacilitator = styled.span`
   font-size: 1.5em;
 `
 
-const ToggleInfoButton = styled.button`
-  border-radius: .5em;
-  border: 1px solid black;
-  background-color: white;
-  color: black;
-  &:active, &:hover {
-    background-color: black;
-    color: white;
-    border: 1px solid black;
-  }
+const ToggleInfoButton = styled.div`
+  display: flex;
+  justify-content: center;
 `
-
-
 
 const WorkshopSession = ({ workshop }) => {
   const { isSelected } = workshop
@@ -88,9 +79,21 @@ const WorkshopSession = ({ workshop }) => {
     `${workshop.description.substring(0, 500)}...` 
   ) : workshop.description
 
-  const toggleInfoButtonMessage = isSelected ? 'Show Less Info' : 'Show More Info'
+  const createMarkup = (text) => ({
+    __html: text
+  })
+
+  const toggleInfoButtonMessage = isSelected ? (
+    <div>
+      <i style={{ color: 'rgba(181,126,175,1)', fontSize: '1.5em'}} class="fas fa-chevron-up"></i> 
+    </div>
+  ) : (
+    <div>
+      <i style={{ color: 'rgba(181,126,175,1)', fontSize: '1.5em'}} class="fas fa-chevron-down"></i>
+    </div>
+  )
   return (
-    <Session className='mb-5'>
+    <Session className='mb-5' onClick={workshop.handleClick}>
       <SessionHeader>
         <SessionId className='text-center mb-3 mr-2 mt-0'>
           <span style={{
@@ -111,20 +114,16 @@ const WorkshopSession = ({ workshop }) => {
           <WorkshopLocation>{workshop.location}</WorkshopLocation>
         )
       }
-      <WorkshopDescription className='mb-4'>{description}</WorkshopDescription>
+      <WorkshopDescription className='mb-4' dangerouslySetInnerHTML={createMarkup(description)}/>
       {
         isSelected && (
           <div className='mb-4'>
             <AboutTheFacilitator>About the Facilitator</AboutTheFacilitator>
-            <p>{workshop.bio}</p>
+            <div dangerouslySetInnerHTML={createMarkup(workshop.bio)}/>
           </div>
         )
       }
-      <ToggleInfoButton 
-        className='btn btn-secondary' 
-        onClick={workshop.handleClick}
-      >{toggleInfoButtonMessage}
-      </ToggleInfoButton>
+      <ToggleInfoButton>{toggleInfoButtonMessage}</ToggleInfoButton>
     </Session>
   )
 }
