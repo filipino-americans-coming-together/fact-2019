@@ -288,7 +288,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS2-17',
-  session: 'WORKSHOP_SESSION 02',
+  session: 'WORKSHOP_SESSION_02',
   title: 'Rooted in Culture: Our History in the Fil-Am Diaspora',
   description: '<p>This workshop aims to educate workshop delegates on the fundamentals of Asian History. Included in the workshop will be significant historical events in Asian/Filipino history that the average student likely did not learn in a traditional classroom. Historically, elements of Asian history are often left out of the American curriculum so this workshop seeks to inform delegates of the roots of our people. Often, we, as Asian-Americans, have expectations set upon us that deter us from pursuing other ventures that do not align with that predetermined destiny.</p>',
   name: 'Edward Ray, Marko Dacpano, Kevin Tee',
