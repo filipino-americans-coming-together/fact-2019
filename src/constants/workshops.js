@@ -162,7 +162,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS1-18',
-  session: 'WORKSHOP_SESSION_02',
+  session: 'WORKSHOP_SESSION_01',
   title: 'Speak Your Dreams into Existence',
   description: '<p>Language, as a tool to create, can materialize concepts, design experiences, share knowledge and make promises that can be delivered. In this workshop, we create a 60-minute laboratory to explore what is possible when we are grounded in our bodies and in gratitude for this one wild life we get to live. Get ready to plan, speak, and act upon the vision you create for your life. Starting the weekend with the mindset and relationships activated through this workshop is a GAME CHANGER.</p>',
   name: 'Melorie Serrano Masacupan',
