@@ -151,6 +151,14 @@ const WORKSHOPS = [{
   bio: '<p>Melorie returns to her alma mater after a decade of entrepreneurship in the Bay Area and resolving ancestral trauma in the Philippines. Yoga, meditation, and reiki have strengthened her intuition to manifest purposeful work, authentic relationships, and anything she puts her mind to. She travels to train with universities and organizations dedicated to resourcing people of color and allies. When she is not leading empowerment workshops, you can find her dancing while eating something delicious. Her passion project, a podcast broadcasting stories of transformation, can be found on amplifyingprogress.com.</p>'
 },
 {
+  id: 'WS1-19',
+  session: 'WORKSHOP_SESSION_01',
+  title: 'Rooted in Culture: Our History in the Fil-Am Diaspora',
+  description: '<p>This workshop aims to educate workshop delegates on the fundamentals of Asian History. Included in the workshop will be significant historical events in Asian/Filipino history that the average student likely did not learn in a traditional classroom. Historically, elements of Asian history are often left out of the American curriculum so this workshop seeks to inform delegates of the roots of our people. Often, we, as Asian-Americans, have expectations set upon us that deter us from pursuing other ventures that do not align with that predetermined destiny.</p>',
+  name: 'Edward Ray, Marko Dacpano, Kevin Tee',
+  bio: '<p>Edward Raya is a recent graduate of the University of Illinois at Chicago, majoring in Rehabilitation Sciences and minoring in Global Asian Studies/ Disability Human Development. He is a Brother of Theta Lambda Beta Fraternity, Inc. and has performed with them at FACT V-Show. He was also the Master of Ceremonies for Battle of the Bamboo and MFAS V-Show 2019. Currently, he works for Athletico and is a part of the UniPro Chicago Staff.</p><p>Marko Dacpano is a recent graduate from the University of Illinois at Chicago. He is a proud Brother of Theta Lambda Beta Fraternity, Inc. and has performed at FACT V-Show. He has served as [FIA]*\'s Cultural Coordinator and Promotions Director for Battle Of the Bamboo. He is currently working towards becoming a pharmacist and doing work with UniPro Chicago as a Staff member.</p><p>Kevin Tee is a recent graduate of Purdue University and is currently an Associate Software Engineer at Publicis Sapient. Kevin was previously very active within the Purdue Filipino Association, as well as being an integral part of their PCN the past 3 years. Kevin currently resides in Chicago, now the content manager for Unipro Chicago. In Kevin’s free time, he enjoys playing and watching basketball, attending football games, traveling, working out and going on foodie adventures.</p',
+},
+{
   id: 'WS2-00',
   session: 'WORKSHOP_SESSION_02',
   title: 'The \'Fit Bit',
@@ -285,14 +293,6 @@ const WORKSHOPS = [{
   description: '<p>The workshop will discuss how identities and labels shape our interactions through the world with the perceived expectations and stereotypes that are instilled by society. With this workshop, individuals will be given the space to reflect and process past experiences while exploring ways to make a conscious effort in progressing forward.</p>',
   name: 'Lily Hurt - University of Kentucky FASO',
   bio: '<p>Lily Hurt is a 3rd Year student studying Psychology with a minor in Gender and Women\'s Studies. She is the current President of the Filipino American Student Organization while also taking the initiative in starting an Asian Greek interest group on the University of Kentucky\'s campus. She also holds other positions in the university\'s counseling and tutoring center. She strives to create more opportunities and platforms for Asian/American Pacific Islanders since the university is a predominantly white institution.</p>'
-},
-{
-  id: 'WS2-17',
-  session: 'WORKSHOP_SESSION_02',
-  title: 'Rooted in Culture: Our History in the Fil-Am Diaspora',
-  description: '<p>This workshop aims to educate workshop delegates on the fundamentals of Asian History. Included in the workshop will be significant historical events in Asian/Filipino history that the average student likely did not learn in a traditional classroom. Historically, elements of Asian history are often left out of the American curriculum so this workshop seeks to inform delegates of the roots of our people. Often, we, as Asian-Americans, have expectations set upon us that deter us from pursuing other ventures that do not align with that predetermined destiny.</p>',
-  name: 'Edward Ray, Marko Dacpano, Kevin Tee',
-  bio: '<p>Edward Raya is a recent graduate of the University of Illinois at Chicago, majoring in Rehabilitation Sciences and minoring in Global Asian Studies/ Disability Human Development. He is a Brother of Theta Lambda Beta Fraternity, Inc. and has performed with them at FACT V-Show. He was also the Master of Ceremonies for Battle of the Bamboo and MFAS V-Show 2019. Currently, he works for Athletico and is a part of the UniPro Chicago Staff.</p><p>Marko Dacpano is a recent graduate from the University of Illinois at Chicago. He is a proud Brother of Theta Lambda Beta Fraternity, Inc. and has performed at FACT V-Show. He has served as [FIA]*\'s Cultural Coordinator and Promotions Director for Battle Of the Bamboo. He is currently working towards becoming a pharmacist and doing work with UniPro Chicago as a Staff member.</p><p>Kevin Tee is a recent graduate of Purdue University and is currently an Associate Software Engineer at Publicis Sapient. Kevin was previously very active within the Purdue Filipino Association, as well as being an integral part of their PCN the past 3 years. Kevin currently resides in Chicago, now the content manager for Unipro Chicago. In Kevin’s free time, he enjoys playing and watching basketball, attending football games, traveling, working out and going on foodie adventures.</p',
 },
 {
   id: 'WS2-18',
