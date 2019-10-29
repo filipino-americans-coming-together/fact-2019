@@ -15,6 +15,137 @@ import Footer from '../../components/Footer'
 
 import styles from './styles.module.css'
 
+const Event = ({ time, title, location, duration }) => (
+ <div className='boxShadow' style={{
+    background: `linear-gradient(215deg, rgba(241,164,232,1) 0%, rgba(200,178,223,1) 66%)`,
+    borderRadius: '.5em',
+    marginBottom: '.75em',
+    marginTop: '.75em',
+    padding: '.75em',
+    paddingTop: '.5em',
+    minHeight: `${3.4 * duration}em`,
+    display: 'flex'
+ }}>
+    <div style={{
+      flex: 2
+    }}>
+      <p 
+        className='fontOpenSans p-0 m-0 text-white'
+        style={{
+          fontWeight: 900,
+          fontSize: '.9em',
+          textAlign: 'right'
+        }}
+      >{time}</p>
+    </div>
+    <div style={{
+      flex: 3,
+      paddingLeft: '1em'
+    }}>
+      <p
+        className='fontOpenSans p-0 m-0 text-white'
+        style={{
+          fontWeight: 600,
+          fontSize: '1em'
+        }}
+      >{title}</p>
+      <p
+        className='fontOpenSans p-0 m-0 text-white'
+        style={{
+          fontWeight: 300,
+          fontSize: '1em'
+        }}
+      >{location}</p>
+    </div>
+ </div>
+)
+
+const Day = ({ day, events }) => (
+  <div style={{ marginBottom: '2em' }}>
+  <h3 
+    style={{
+      fontWeight: 200,
+      paddingBottom: '.5em'
+    }}
+    className='text-center fontOpenSans'
+  >{day}</h3>
+  {(events || []).map(event => (
+    <Event {...event}/>
+  ))}
+  </div>
+
+)
+const Agenda = () => (
+  <Row>
+    <Col md={{ span: 8, offset: 2 }} lg={{ span: 5, offset: 1}}>
+    <Day day="Friday" events={[
+      {
+        time: "4:00 - 10:00pm",
+        duration: 1,
+        title: "Registration",
+        location: "Asian American Cultural Center",
+      },
+      {
+        time: "7:00 - 9:00pm",
+        duration: 2,
+        title: "Opening Ceremonies",
+        location: "Gregory Hall Auditorium",
+      }
+    ]}/>
+    </Col>
+    <Col md={{ span: 8, offset: 2 }} lg={{ span: 5, offset: 0 }}>
+    <Day day="Saturday" events={[
+      {
+        time: "8:30 - 9:30am",
+        duration: 1,
+        title: "Late Registration",
+        location: "University YMCA",
+      },
+      {
+        time: "9:00 - 9:40am",
+        duration: .75,
+        title: "Opening Session",
+        location: "Lincoln Hall Theater",
+      },
+      {
+        time: "9:55 - 11:00am",
+        duration: 1.1,
+        title: "Workshop Session I",
+        location: "Assigned Location"
+      },
+      {
+        time: "11:15am - 12:20pm",
+        duration: 1.1,
+        title: "Workshop Session II",
+        location: "Assigned Location"
+      },
+      {
+        time: "12:20 - 1:30pm",
+        duration: 1.1,
+        title: "Lunch",
+      },
+      {
+        time: "1:45 - 3:00pm",
+        duration: 1.25,
+        title: "Workshop Session III",
+        location: "Assigned Location"
+      },
+      {
+        time: "3:15 - 4:15pm",
+        duration: 1,
+        title: "Meet the Facilitators & Wristband Pick-up",
+        location: "Asian American Cultural Center"
+      },
+      {
+        time: "5:00 - 7:00pm",
+        duration: 2,
+        title: "Variety Show",
+        location: "Foellinger Auditorium"
+      }
+    ]}/>
+    </Col>
+  </Row>
+)
 const Landing = () => (
   <>
     <Layout>
@@ -58,6 +189,21 @@ const Landing = () => (
                 </Row>
               </UICard.Body>
             </UICard>
+          </Container>
+        </Section.Body>
+      </Section>
+      <Section>
+        <Section.Title>Conference Agenda</Section.Title>
+        <Section.Body>
+          <Container>
+              <Col 
+                className='mx-auto'
+                md={12}
+                lg={{ span: 10, offset: 1 }}
+              >
+                  <Agenda/>
+                
+              </Col>
           </Container>
         </Section.Body>
       </Section>
