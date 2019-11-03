@@ -179,12 +179,10 @@ const Landing = () => (
               </UICard.Header>
               <UICard.Body>
                 <Row>
-                  <Col 
-                    className='mx-auto'
-                    md={12}
-                    lg={{ span: 4, offset: 4}}
-                  >
-                    <UIButton href='https://forms.gle/LkrFdZWTebziQugp8' target='_blank' block>Register</UIButton>
+                  <Col lg={{ span: 6, offset: 3 }}>
+                    <p className='text-white p-2' style={{ fontSize: '1.1em'}}>
+                      Registration is now closed. However, we have onsite registration on Nov 9th! Attendees who register onsite will still be able to attend workshops and other conference activities, but will have limited workshop options.
+                    </p>
                   </Col>
                 </Row>
               </UICard.Body>

@@ -339,7 +339,7 @@ const WORKSHOPS = [{
   session: 'WORKSHOP_SESSION_03',
   title: 'Define Your Destiny: STEM (Science, Technology, Engineering and Mathematics)',
   description: '<p>In line with this year\'s theme, FACT is introducing a series of panels for our 3rd session workshops! We\'ll be having professionals in each field answering the questions YOU want to know! The full slate of panelists will be revealed soon, so stay tuned! This panel is dedicated to the STEM field.</p>',
-  name: 'Kevin Tee, and more panelist TBA',
+  name: 'Kevin Tee, Edward Sacris and Janais Peace',
   bio: '<p>Coming soon.</>'
 },
 {
@@ -347,7 +347,7 @@ const WORKSHOPS = [{
   session: 'WORKSHOP_SESSION_03',
   title: 'Define Your Destiny: Healthcare',
   description: '<p>In line with this year\'s theme, FACT is introducing a series of panels for our 3rd session workshops! We\'ll be having professionals in each field answering the questions YOU want to know! The full slate of panelists will be revealed soon, so stay tuned! This panel is dedicated to the Healthcare field.</p>',
-  name: 'Brian Guerrero, Gio Manguerra',
+  name: 'Brian Guerrero, Gio Manguerra and Katrina De Guzman.',
   bio: 'Coming soon.'
 },
 {
@@ -363,7 +363,7 @@ const WORKSHOPS = [{
   session: 'WORKSHOP_SESSION_03',
   title: 'Define Your Destiny: Media & The Arts',
   description: '<p>In line with this year\'s theme, FACT is introducing a series of panels for our 3rd session workshops! We\'ll be having professionals in each field answering the questions YOU want to know! The full slate of panelists will be revealed soon, so stay tuned! This panel is dedicated to Media & the Arts.</p>',
-  name: 'Jon Taala, Aaron Navarro, Michelle Macrohan',
+  name: 'Jon Taala, Jenilee De La Fuente and Michelle Macrohan',
   bio: '<p>Coming soon.</p>'
 },
 {
