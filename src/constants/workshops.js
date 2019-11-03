@@ -217,8 +217,8 @@ const WORKSHOPS = [{
 {
   id: 'WS2-06',
   session: 'WORKSHOP_SESSION_02',
-  title: 'Create Your Own Adventure Crisis Sim',
-  description: 'You will be given a series of scenarios with choices to make. The choice you make impacts your path and outcome. ',
+  title: 'Crisis Simulation: The FilAm Identity',
+  description: 'Crisis simulations give you the chance to make mistakes, learn from those mistakes, and take that experience so you feel prepared should the crisis happen in real life. You will be given a scenario that questions what it means to be Filipino / Filipino American. How will you react in that situation?',
   name: 'Unipro Chicago',
   bio: 'Pilipino American Unity for Progress (UniPro) is a national 501(c)(3) nonprofit organization that envisions a unified and engaged Pilipino America. UniPro’s mission is to engage Pilipino Americans through collaboration, advocacy and education. The organization allows Pilipino Americans the opportunity to explore their place in the community in the hope of owning their niche through its various programs incorporating professional development, Filipino history, and workshop sessions.'
 },
