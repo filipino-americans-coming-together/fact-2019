@@ -6,6 +6,7 @@ import Landing from './scenes/LandingPlaceholder'
 // import Home from './scenes/Home'
 import TeamPage from './scenes/team/TeamPage'
 import Workshops from './scenes/Workshops'
+import AppDownload from './scenes/AppDownload'
 // import Registration from './scenes/Registration'
 
 import './stylesheets/global.css'
@@ -20,6 +21,7 @@ const App = () => {
         <Route exact path='/' component={Landing} />
         <Route path='/team' component={TeamPage} />
         <Route path='/workshops' component={Workshops} />
+        <Route path='/app' component={AppDownload} />
         <script
           src='https://code.jquery.com/jquery-3.3.1.slim.min.js'
           integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo'
