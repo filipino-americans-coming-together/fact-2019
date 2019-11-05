@@ -4,7 +4,6 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
-import UIButton from '../../UIComponents/UIButton'
 import UICard from '../../UIComponents/UICard'
 import UIYoutubeEmbed from '../../UIComponents/UIYoutubeEmbed'
 

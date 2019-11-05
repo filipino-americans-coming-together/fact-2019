@@ -28,12 +28,20 @@ const AppDownload = () => {
             >
               <Row>
                 <Col>
-                  <a href='https://apps.apple.com/us/app/fact-2019/id1485682821' target='_blank'>
+                  <a 
+                    href='https://apps.apple.com/us/app/fact-2019/id1485682821' 
+                    target='_blank'
+                    rel="noopener noreferrer"
+                  >
                     <Image src={AppStoreLogo} fluid/>
                   </a>
                 </Col>
                 <Col>
-                  <a href='https://play.google.com/store/apps/details?id=io.alprielse' target='_blank'>
+                  <a 
+                    href='https://play.google.com/store/apps/details?id=io.alprielse' 
+                    target='_blank'
+                    rel="noopener noreferrer"
+                  >
                     <Image src={GooglePlayLogo} fluid/>
                   </a>
                 </Col>
