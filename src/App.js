@@ -3,11 +3,11 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import Navigation from './scenes/Navigation'
 import Landing from './scenes/LandingPlaceholder'
-// import Home from './scenes/Home'
 import TeamPage from './scenes/team/TeamPage'
 import Workshops from './scenes/Workshops'
 import AppDownload from './scenes/AppDownload'
-// import Registration from './scenes/Registration'
+import AdminDashboard from './scenes/AdminDashboard'
+import BookletPDFViewer from './scenes/BookletPDFViewer'
 
 import './stylesheets/global.css'
 import './stylesheets/colors.css'
@@ -22,6 +22,8 @@ const App = () => {
         <Route path='/team' component={TeamPage} />
         <Route path='/workshops' component={Workshops} />
         <Route path='/app' component={AppDownload} />
+        <Route path='/admin-dashboard' component={AdminDashboard} />
+        <Route path='/booklet' component={BookletPDFViewer} />
         <script
           src='https://code.jquery.com/jquery-3.3.1.slim.min.js'
           integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo'
