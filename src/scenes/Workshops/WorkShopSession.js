@@ -55,6 +55,7 @@ const WorkshopFacilitator = styled.h5`
 
 const WorkshopLocation = styled.h6`
   font-family: 'Open Sans';
+  font-size: 1.2em;
   font-weight: 600;
 `
 
@@ -106,8 +107,8 @@ const WorkshopSession = ({ workshop }) => {
           <WorkshopTitle >
             {workshop.title}
           </WorkshopTitle>
-          <WorkshopFacilitator className='text-black-50 mb-3'>{workshop.name}</WorkshopFacilitator>
-          <WorkshopLocation className='text-black-50'>{workshop.location}</WorkshopLocation>
+          <WorkshopFacilitator className='text-black-50'>{workshop.name}</WorkshopFacilitator>
+          <WorkshopLocation className='text-black-50 mb-3'>{workshop.location}</WorkshopLocation>
         </div>
       </SessionHeader> 
       <WorkshopDescription className='mb-4' dangerouslySetInnerHTML={createMarkup(description)}/>
