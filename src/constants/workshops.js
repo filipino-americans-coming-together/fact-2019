@@ -1,13 +1,15 @@
 const WORKSHOPS = [{
   id: 'WS1-01',
+  location: 'Gregory Hall 100',
   session: 'WORKSHOP_SESSION_01',
   title: 'Mental Health and Self-Empowerment',
-  description: '<p>“Umbrella can’t stop the rain, but it helps us stand in the rain. Confidence may not bring success, but confidence gives you the power to face any challenge in life.” Unknown Author</p><p>Most people, especially college students are bombarded with uncertainties, self-doubts, and limiting beliefs. These doubts and beliefs often reside in our heads for days and contribute to the negative experience to our mental health which often results in unnecessary anxiety, depression, and fear. Personally, I have been through this whole process as a college student, a person of color (Asian American), and a young professional. Fortunately, through years of the mentorship that I have received, researches and reflections that I have done, and hard works that I have put into self-experiment, I have come up with a toolset that I believe can assist college students to empower themselves and avoid the unnecessary mental health challenges that I went through as a college student. <p></p>The workshop I am proposing will show participants simple techniques to transform self-doubts and limiting beliefs into positive inspirations and resolutions. From these resolutions, participants will be able to use strength-based and person-based methods to set actionable goals to empower themselves. Participants will be more confident as they achieve their goals and be able to minimalize unnecessary self-doubts and limiting beliefs.',
+  description: '<p>“Umbrella can’t stop the rain, but it helps us stand in the rain. Confidence may not bring success, but confidence gives you the power to face any challenge in life.” Unknown Author</p><p>Most people, especially college students are bombarded with uncertainties, self-doubts, and limiting beliefs. These doubts and beliefs often reside in our heads for days and contribute to the negative experience to our mental health which often results in unnecessary anxiety, depression, and fear. Personally, I have been through this whole process as a college student, a person of color (Asian American), and a young professional. Fortunately, through years of the mentorship that I have received, researches and reflections that I have done, and hard works that I have put into self-experiment, I have come up with a toolset that I believe can assist college students to empower themselves and avoid the unnecessary mental health challenges that I went through as a college student. </p><p>The workshop I am proposing will show participants simple techniques to transform self-doubts and limiting beliefs into positive inspirations and resolutions. From these resolutions, participants will be able to use strength-based and person-based methods to set actionable goals to empower themselves. Participants will be more confident as they achieve their goals and be able to minimalize unnecessary self-doubts and limiting beliefs.</p>',
   name: 'CoffeeWithJR',
   bio: 'JR Kuo is the CEO of CoffeeWithJR, a mental health training services organization, and a professional speaker, trainer, and coach. He has over 10 years of experience in public speaker and has trained students, faculties, and staff at over 35 universities and conferences across the United States, including Harvard University, Stanford University, and Vanderbilt University. He has been an adjunct professor at the University of Colorado Boulder and Regis University, teaching leadership, cultural competency, and mental health. He is also a Mental Health First Aid instructor. JR provides corporate training that focuses on leadership development and diversity and inclusion. In addition to professional speaker, JR has 10 years of experience managing and running nonprofit organizations and small businesses.'
 },
 {
   id: 'WS1-02',
+  location: 'Lincoln Hall 1027',
   session: 'WORKSHOP_SESSION_01',
   title: 'Creating Value and Leadership: Understanding Engagement',
   description: '<p>This workshop seeks to empower individuals by cultivating self-awareness and community awareness. Through sharing our personal experiences and facilitating discussion, we will learn together about what value we feel our organizations provide us and what more they could offer. This workshop is open to individuals of all ages, backgrounds, and all levels of leadership experience. We all have a little to learn from each other.</p>',
@@ -16,14 +18,16 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS1-03',
+  location: 'Gregory Hall 215',
   session: 'WORKSHOP_SESSION_01',
   title: 'What to Focus on Financially after College to Set You Up for Future Success',
-  description: 'The workshop will focus on 2 important parts for college students who have just graduated and enter the work force. Budgeting and cash flow management and long term investing for growth and what type of accounts to use.',
+  description: '<p>The workshop will focus on 2 important parts for college students who have just graduated and enter the work force. Budgeting and cash flow management and long term investing for growth and what type of accounts to use.</p>',
   name: 'Gian Deguzman / PUSO Foundation',
   bio: 'Gian Deguzman is a practicing financial planner who works with clients to develop a plan to effectively accomplish their financial goals. Goals center around retirement planning, college planning, debt management, cash flow analysis, risk management and estate planning. More importantly, Gian guides clients through stages in their lives so they can get through them more confidently. '
 },
 {
   id: 'WS1-04',
+  location: 'Gregory Hall 213',
   session: 'WORKSHOP_SESSION_01',
   title: 'Seeing past \'Walang Hiya\'',
   description: '<p>“Walang hiya ka” or “You have no shame” is a phrase that typically triggers a strong emotion within most Filipinx and Filipinx-Americans. It is a phrase that brings us back to our childhood, where the consequences of our actions determined whether we brought honor or disgrace to our family. Aside from choosing between eating adobo or hamburgers at lunchtime, Filipinx-Americans also have to choose between the collectivistic values of their Filipino culture at home and the individualistic values engrained in American society. In this workshop, we will unpack the meaning of “walang hiya” and other unintentionally hurtful phrases Filipino parents say that make it difficult for Filipinx-American individuals to cope between the intergenerational and intercultural conflict they experience. </p>',
@@ -32,6 +36,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS1-05',
+  location: 'Gregory Hall 112',
   session: 'WORKSHOP_SESSION_01',
   title: 'Subtle Filipino Traits: Disrupting Stereotypes',
   description: '<p>Let\'s address stereotypes, bold topics, and untold stories in the Filipino community through a series of interactive activities! This workshop is all about exploring identify, reimagining who we are, the challenges we face, and how our experiences connect us more than divide us! *Subtle Filipino Traits is an online community that aims to connect Filipinos across the globe. Since Subtle Filipino Traits launched on Facebook in January 2019, they have successfully implemented engagement outreaches that have reached over 5 million people and received over half a million social media interactions. They have since launched a website, subtlefilipinotraits.com, and hope to expand their reach in order to bring the Filipino diaspora closer together.</p>',
@@ -40,6 +45,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS1-06',
+  location: 'Lincoln Hall 1066',
   session: 'WORKSHOP_SESSION_01',
   title: 'Our Migration Story',
   description: '<p>Ever wondered why our motherland is a foreign land? Why do our families have to move to other countries in search of “better opportunities?” why are Filipinos almost everywhere EXCEPT the Philippines? In this workshop, we will join together to share our migration stories with one another and answer theses questions. In order to better understand our identities as Filipino diasporans, we will explore the root causes of migration and the true reasons why our motherland is a foreign land. Together, we will discuss how we can address the issues we face both here and abroad and how that connects each one of us personally to a wider movement of migrants.</p>',
@@ -48,6 +54,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS1-07',
+  location: 'Illini Union 314b',
   session: 'WORKSHOP_SESSION_01',
   title: 'Conference Within A Conference (CWAC)',
   description: '<p>Conference Within a Conference: Relationships Inspiring Strength and Engagement</p><p>Conference Within a Conference, also known as CWAC, is a time in which young leaders are able to gain a new perspective in terms of leadership, networking, social and professional skills. It’s a moment where we try to broaden other student’s ideas and help bring them to life for now or for the future. On behalf of MAFA Board 19-20, we took it up ourselves to make CWAC as interactive and interpersonal as possible.</p>',
@@ -56,6 +63,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS1-08',
+  location: 'Lincoln Hall 1065',
   session: 'WORKSHOP_SESSION_01',
   title: 'Adulting 101: Intro to Goal Setting',
   description: '<p>College can be a very overwhelming time, especially when you feel like you have no direction. If you\'ve ever wondered, "WTF am I doing with my life?" Jess and Tia are here to help you with that! This workshop is where creativity meets productivity. In this session, we will be designing mini books that will help you recognize, prioritize and visualize your goals. Adulting 101 is perfect for anyone who wants to learn more about goal setting while flexing their creative muscles! </p>',
@@ -64,6 +72,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS1-09',
+  location: 'Gregory Hall 311',
   session: 'WORKSHOP_SESSION_01',
   title: 'Burning Man, EDC, and the Takeaways towards Building Community',
   description: '<p>Are you into the festival or rave scene? Have you thought about what you can learn from it other than having a good time? In this workshop, I\'ll be sharing my experiences from attending festivals all over the country and how it\'s shaped me personally and professionally. Let\'s talk about what we can learn from the scene to build a better community.</p>',
@@ -72,6 +81,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS1-10',
+  location: 'Gregory Hall 319',
   session: 'WORKSHOP_SESSION_01',
   title: 'BAKLA: Filipinx Queer and Trans Identity',
   description: '<p>Although commonly thought to be a modern occurrence, Queer and Trans folk have always existed, even predating the colonization of the Philippines. In this workshop, we will navigate the queerness embedded within our native tongue, how queer culture continues to live on within the Philippines and in the Diaspora, and the evolution of Drag and Ballroom culture. Get ready to move and dance because we will also the five elements of voguing.</p>',
@@ -80,6 +90,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS1-11',
+  location: 'Gregory Hall 219',
   session: 'WORKSHOP_SESSION_01',
   title: 'Walang Makakatigil: How Youth and Students are Resisting Repression in the Philippine',
   description: '<p>The Filipino youth have a long history of coming together to fight for liberation in the face of oppressive and repressive regimes. Today, young people boldly critiquing President Duterte’s policies in the Philippines are under attack by the current administration. Hear stories from the youth at the front lines of rising repression in the Philippines, and how they are carrying on the legacy of resilience and resistance for a better world.</p>',
@@ -88,6 +99,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS1-12',
+  location: 'Gregory Hall 221',
   session: 'WORKSHOP_SESSION_01',
   title: 'The FilAm Millionaire Next Door',
   description: '<p>This presentation summarizes the pursuit of financial independence – not having to work for money. It covers an array of personal finance topics from budgeting to investing and dives deeper into today’s climate of rampant consumerism. The workshop offers future professionals a different perspective on how one chooses to spend their time and money with others. By sharing real examples from my financial life and from family and friends, I hope to help others escape the proverbial “Rat Race” as they transition from students to working professionals.</p>',
@@ -96,6 +108,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS1-13',
+  location: 'Illini Union 210',
   session: 'WORKSHOP_SESSION_01',
   title: 'Itukoy Ang Kapalaran Ng Mandirigma: FMA Introductory Workshop',
   description: '<p>This workshop introduces and practices Arnis, Escrima, or Kali otherwise known as Filipino Martial Art. Treat this as choreography because you will learn some in the end. You will learn the basics from footwork, striking and even the history behind this powerful art. We will conclude with a set that involves partnering up and implementing what you learn. The goal is to empower you and even give you a little confidence boost to make you feel like an astig.</p>',
@@ -104,6 +117,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS1-14',
+  location: 'Lincoln Hall 1022',
   session: 'WORKSHOP_SESSION_01',
   title: 'Dios Natin: "Our God"',
   description: '<p>How did the Catholic/Christian faith come to be in the Philippines and what does it mean for us today? How is Jesus healing the story of our people even though its pages include the pain of Spanish colonialism and American imperialism “in the name of Jesus?” Come and see how our identities of culture and faith intersect.</p>',
@@ -112,6 +126,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS1-15',
+  location: 'Gregory Hall 321',
   session: 'WORKSHOP_SESSION_01',
   title: 'Tsismis: The Tea on U.S. Colonialism in the Philippines',
   description: '<p>When you were growing up, did you ever talk about the Philippines in your history classes? It is no secret that U.S. history books shape the past in a way that portrays the country in a positive light. In this workshop, we will learn what the U.S. education system doesn’t tell you about colonialism in the Philippines and discuss the effect this has had on our culture.</p>',
@@ -120,6 +135,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS1-16',
+  location: 'Gregory Hall 217',
   session: 'WORKSHOP_SESSION_01',
   title: 'Inspiration, Growth, and Prosperity with the Mari’s',
   description: '<p>In this workshop, we hope to empower individuals while discussing school/academics, culture/cultural upbringing, and mental health. We want to remind people that despite feeling out of control sometimes, there are always choices we can make to control how we feel and where we go in life. Everyone’s said ‘path’ isn’t always going to be linear. We all have goals and aspirations for ourselves that we feel we need to accomplish in our lifetimes, but what if it’s not our destiny? Sometimes bad things happen in order for good things to be the outcome. Going through unfortunate events helps us learn from our mistakes and helps us move forward to get to where we want to be. It may seem like things happen TO us, but we have the power to turn these unfortunate events into motivation to shape our future in the way that we envision it to be. Ultimately, we have to remember to be kind to ourselves and learn to love our journey.</p>',
@@ -128,6 +144,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS1-17',
+  location: 'Gregory Hall 331',
   session: 'WORKSHOP_SESSION_01',
   title: 'Out of Many, One: The Creation and Maintenance of National Identities in Multi-ethnic Societies; the Lessons of Filipinos from America, Canada, and the Philippines',
   description: '<p>What is a nation? Is it “an imagined political community,” or “a daily referendum” on what its members choose to forget and remember about themselves?</p><p>Filipinos in the Philippines and abroad have centuries of experience wrestling with these ideas. How much have immigrant Filipinos forgotten about the Philippines, willingly or unwillingly, in order to reconcile themselves with a new national identity in being American or Canadian? Can such things really be remembered? To what extent can different national identities co-exist in a country, let alone one person?</p><p>In this workshop, we explore ways to answer these questions in the context of ethnic diversities that characterize America, Canada, and the Philippines.</p>',
@@ -136,6 +153,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS1-18',
+  location: 'YMCA Latzer Hall',
   session: 'WORKSHOP_SESSION_01',
   title: 'Jasper Sanchez: Through The Lens',
   description: '<p>I will be talking about how I paved my own path in the dance world against other people’s opinions. I’ll also explain how I was able to find success and be a part of amazing dance groups. Then I’m going to teach a combo because it’s fun!!</p>',
@@ -144,6 +162,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS1-19',
+  location: 'llini Union 404',
   session: 'WORKSHOP_SESSION_01',
   title: 'Speak Your Dreams into Existence',
   description: '<p>Language, as a tool to create, can materialize concepts, design experiences, share knowledge and make promises that can be delivered. In this workshop, we create a 60-minute laboratory to explore what is possible when we are grounded in our bodies and in gratitude for this one wild life we get to live. Get ready to plan, speak, and act upon the vision you create for your life. Starting the weekend with the mindset and relationships activated through this workshop is a GAME CHANGER.</p>',
@@ -152,6 +171,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS1-20',
+  location: 'Lincoln Hall 1024',
   session: 'WORKSHOP_SESSION_01',
   title: 'Rooted in Culture: Our History in the Fil-Am Diaspora',
   description: '<p>This workshop aims to educate workshop delegates on the fundamentals of Asian History. Included in the workshop will be significant historical events in Asian/Filipino history that the average student likely did not learn in a traditional classroom. Historically, elements of Asian history are often left out of the American curriculum so this workshop seeks to inform delegates of the roots of our people. Often, we, as Asian-Americans, have expectations set upon us that deter us from pursuing other ventures that do not align with that predetermined destiny.</p>',
@@ -160,6 +180,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS1-21',
+  location: 'Lincoln Hall 1090',
   session: 'WORKSHOP_SESSION_01',
   title: 'Cultural considerations in improving your focus and concentration',
   description: '<p>Have you ever been frustrated because of trouble focusing or lack of concentration? Come join us to discuss strategies, and explore the facts and myths about attention-deficit/hyperactivity disorder. We will also attend to how cultural factors impact our perception of focus and concentration.</p>',
@@ -168,6 +189,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS2-01',
+  location: 'Lincoln Hall 1024',
   session: 'WORKSHOP_SESSION_02',
   title: 'The \'Fit Bit',
   description: '<p>Just because everyone is wearing Supreme, does not mean you need to also wear Supreme. Finding your own style is important in defining who you are as a person in this world. Going along with this, finding clothes that are affordable to you, is an important aspect of separating yourself among others when taking into account budget differences among peers.</p>',
@@ -176,6 +198,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS2-02',
+  location: 'Gregory Hall 100',
   session: 'WORKSHOP_SESSION_02',
   title: 'Mental Health and Self-Identity ',
   description: '<p>There is no health without mental health. Unfortunately due to cultural stigma, mental health is still unspoken in the Asian American and Pacific Islander (API) college student community. Studies after studies have shown that the ability to talk about mental health issues would tremendous decrease students stress level and improve overall college experience. </p><p>This workshop provides a safe space and professional guided discussion for API students to talk about their struggles on college campus, mental health challenges, and overall wellness. We are not training students to be clinicians; instead we are educating them on various common mental health and emotional knowledge, on how to be there for their friends, improve their communication skill, and on how to be a better listener for their friends.</p><p>Participants will explore their internal and external identities and how that may impact their own health and wellness. Participants will learn how to empower themselves through appreciation of their heritage and strengths.  After being able to identify who they are, participants will learn how mental health is an essential component of their personal development. Last, participants will learn about fellow Asian American perspectives and how this can increase their capacities to talk about their identities, mental health, and Asian American issues.</p>',
@@ -184,6 +207,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS2-03',
+  location: 'Gregory Hall 217',
   session: 'WORKSHOP_SESSION_02',
   title: 'How to become an Ally for those who are affected by current immigration policies',
   description: '<p>In recent years, attacks on immigrants, refugees, and asylum seekers and their families have been on the rise, from detention centers to executive orders. As a college of students with certain privileges, there are several things you can do, from educating your peers to promoting safety and security in our communities. During this workshop, you will be able to learn about some historical immigration actions that helped changed the lives of many immigrants and their communities; you will be able to discuss how current policies are affecting college students, particularly DACA and Undocumented students; and and you will be able to strategize how your RSO or group can support students, families, and communities impacted by immigration policies on your campus</p>',
@@ -192,6 +216,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS2-04',
+  location: 'Gregory Hall 215',
   session: 'WORKSHOP_SESSION_02',
   title: 'Cultivating Solidarity: Untold Stories of the Bukid',
   description: '<p>It\'s a dream for many of us to visit the Philippines and appreciate the beauty it has to offer. However, our Kababayans who cultivate the homeland, farmers and indigenous peoples, live in a nightmare of displacement and land grabbing. In Tagalog, ‘bukid’ means farm. Join us to hear about the untold stories of the bukid where farmers struggle through their fight for land and life and also what you can do to support our fellow Filipinos back home. </p>',
@@ -200,6 +225,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS2-05',
+  location: 'Gregory Hall 213',
   session: 'WORKSHOP_SESSION_02',
   title: 'Real Talk, With The PUSO Foundation',
   description: '<p>Executive members of the PUSO Foundation will share wisdom and tips on how to best define your destiny. It will cover personal experiences along their journey. You don\'t want to miss out on this one.</p>',
@@ -208,6 +234,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS2-06',
+  location: 'Gregory Hall 319',
   session: 'WORKSHOP_SESSION_02',
   title: 'Microaggressions: A Case Study',
   description: '<p>Whether we are fully aware of it or not, we live in a world rife with microaggressions. Microaggressions are, in short, a communication or action that subtly conveys a prejudicial attitude towards a marginalized group, intentionally or unintentionally. Within this workshop, delegates will analyze stories in which microaggressions are involved and discuss how they would react or respond. Additionally, delegates will gain the skills to identify microaggressions that may arise in their personal, academic, or professional lives and learn effective ways to address these situations themselves.</p>',
@@ -216,14 +243,16 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS2-07',
+  location: 'Lincoln Hall 1092',
   session: 'WORKSHOP_SESSION_02',
   title: 'Crisis Simulation: The FilAm Identity',
-  description: 'Crisis simulations give you the chance to make mistakes, learn from those mistakes, and take that experience so you feel prepared should the crisis happen in real life. You will be given a scenario that questions what it means to be Filipino / Filipino American. How will you react in that situation?',
+  description: '<p>Crisis simulations give you the chance to make mistakes, learn from those mistakes, and take that experience so you feel prepared should the crisis happen in real life. You will be given a scenario that questions what it means to be Filipino / Filipino American. How will you react in that situation?</p>',
   name: 'Unipro Chicago',
   bio: 'Pilipino American Unity for Progress (UniPro) is a national 501(c)(3) nonprofit organization that envisions a unified and engaged Pilipino America. UniPro’s mission is to engage Pilipino Americans through collaboration, advocacy and education. The organization allows Pilipino Americans the opportunity to explore their place in the community in the hope of owning their niche through its various programs incorporating professional development, Filipino history, and workshop sessions.'
 },
 {
   id: 'WS2-08',
+  location: 'Lincoln Hall 1090',
   session: 'WORKSHOP_SESSION_02',
   title: 'The People\'s Resistance: Land & Human Rights Defenders in the Philippines',
   description: '<p>The Philippines is one of the richest countries in natural resources and ecological splendor, yet it is also one of the most vulnerable to environmental disasters. This workshop will explore how indigenous communities are at the forefront of this climate crisis, as they fight to preserve their ancestral domains and face unprecedented repression under President Duterte. From the bombing of Mindanao to the attack on Brandon Lee, we’ll learn about the many ways climate justice and human rights are intertwined in the Philippines, and how we can support and connect with these struggles across the globe.</p>',
@@ -232,6 +261,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS2-09',
+  location: 'Lincoln Hall 1065',
   session: 'WORKSHOP_SESSION_02',
   title: 'From Marcos To Duterte, Filipinas Are Marching And Rising For Change.',
   description: '<p>From former Philippine dictator Ferdinand Marcos to the current Philippine President Duterte, Filipinas and Gabriela members are organizing, rising, resisting, and uniting for change.</p><p>This workshop will provide a brief situation of the women sector in Philippine society. It will highlight the role of Gabriela in the fight against state violence and repression and its contribution in the struggle for social transformation.</p><p>The workshop seeks to connect the struggle of Filipinas in the US to Filipinas back home and appreciates the importance of building solidarity amongst them.</p>',
@@ -240,6 +270,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS2-10',
+  location: 'Lincoln Hall 1027',
   session: 'WORKSHOP_SESSION_02',
   title: 'Asian Pacific Islander Civic Engagement 101',
   description: '<p>Did you know Asian Pacific Islanders (APIs) are the fastest-growing racial minority in the U.S.? What is going to happen if we continue to be chronically underrepresented in politics? Learn the basics of civic engagement and how you can get involved in electoral politics, activism, and public policy. From decolonization, rallying in the streets, to voting, every one of us has the power to influence politics in ways that strengthen our community. Learn tangible steps you can take to claim your political power and to harness our political identities for the betterment of our people. Kaya nating abutin, let’s define our destiny together!</p>',
@@ -248,6 +279,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS2-11',
+  location: 'Lincoln Hall 1060',
   session: 'WORKSHOP_SESSION_02',
   title: 'Decolonize Your Mind: Colonial Mentality In Education',
   description: '<p>In “The Miseducation of the Filipino”, historian Renato Constantino wrote that “The most effective means of subjugating a people is to capture their minds.” We see colonial mentality today demonstrated through skin whitening products, an emphasis on perfect English, and a stronghold on the American dream. Join us as we explore colonial mentality since the dawn of Spanish and American colonization, the ways colonial mentality affects us today, and how we can fight for an education that truly serves the Filipino people.</p>',
@@ -256,6 +288,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS2-12',
+  location: 'YMCA Latzer Hall',
   session: 'WORKSHOP_SESSION_02',
   title: 'Prism Kru K-Pop Dance Workshop',
   description: '<p>Delegates will learn a fun piece of choreography taught by the Prism Kru directors. At the end, delegates will be put together in groups and create formations to the piece and perform in for the class.</p>',
@@ -264,6 +297,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS2-13',
+  location: 'Lincoln Hall 1068',
   session: 'WORKSHOP_SESSION_02',
   title: 'You Belong: Navigating Societal and Cultural Pressures To Fit In',
   description: '<p>Daily media messaging and the expectations that come from our social circles can affect our lives in stressful ways. The stress can become so overwhelming for some students that it makes them question whether college is a place where they can truly belong. This session will seek to reframe the deficit mindset by focusing on culturally connected advice for delegates who want to thrive in college, not just survive it.</p>',
@@ -272,6 +306,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS2-14',
+  location: 'Illini Union 210',
   session: 'WORKSHOP_SESSION_02',
   title: 'Dance2eXpreSs: Defining yourself through dance',
   description: '<p>Our goal is to inspire others to explore and express themselves through movement and music. At this workshop, you will be taught a choreographed dance by members of Dance2XS UIUC. Come and discover your destiny through dance with us!</p>',
@@ -280,6 +315,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS2-15',
+  location: 'Gregory Hall 311',
   session: 'WORKSHOP_SESSION_02',
   title: 'Fearing the Tsinela',
   description: '<p>The attendees of the workshop will be encouraged to reflect on their upbringing and how different cultural or situational contexts influence their interactions today. The workshop will include discussion and some cognitive mapping to give attendees an outlet to express both the positive and negative feelings they have around their upbringing. Priority will be placed on creating a safe space for attendants to be as vulnerable as they wish without judgment.</p>',
@@ -288,6 +324,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS2-16',
+  location: 'Gregory Hall 219',
   session: 'WORKSHOP_SESSION_02',
   title: 'The Fight Against Violence Against Women',
   description: '<p>One in four women experience some form of domestic violence in their lifetime, but survivors are stigmatized and shamed for sharing their experiences or seeking help. The mission of this workshop is to understand the dynamics and complexity of relationship violence, with a focus on Asian/-American and Filipino/-American statistics and cultural values that may cultivate cycles of abuse and stigma. By offering respect, support, and encouragement, we hope to inspire delegates to spread awareness and take action to fight violence, and in turn, lead to a future in which all people could define their own destiny.</p>',
@@ -296,6 +333,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS2-17',
+  location: 'Gregory Hall 307',
   session: 'WORKSHOP_SESSION_02',
   title: 'Are you _____ enough?',
   description: '<p>The workshop will discuss how identities and labels shape our interactions through the world with the perceived expectations and stereotypes that are instilled by society. With this workshop, individuals will be given the space to reflect and process past experiences while exploring ways to make a conscious effort in progressing forward.</p>',
@@ -304,6 +342,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS2-18',
+  location: 'Gregory Hall 331',
   session: 'WORKSHOP_SESSION_02',
   title: 'UIUC iJourney: A Campus Divided',
   description: '<p>Who, Where, & Why We Segregate increases awareness of the prevalence of segregation on campus. Through interactive activities, this workshop explores possible detriments and benefits of different types of segregation, how students experience the effects of segregation, and ways to improve or enhance interaction between diverse students.</p>',
@@ -312,6 +351,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS2-19',
+  location: 'Gregory Hall 327',
   session: 'WORKSHOP_SESSION_02',
   title: 'UIUC iJourney: Sexual Racism',
   description: '<p>Navigating Interracial Relationships and Intimacy facilitates discussion about society’s perceptions of interracial relationships. Participants will explore how interracial attraction plays out on dating apps, learn how sexual preference can become sexual racism through fetishization, objectification, and trivialization within all types of relationships, and apply this knowledge to scenarios they may encounter in real life.</p>',
@@ -320,6 +360,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS2-20',
+  location: 'Illini Union 404',
   session: 'WORKSHOP_SESSION_02',
   title: 'Speak Your Dreams into Existence',
   description: '<p>Language, as a tool to create, can materialize concepts, design experiences, share knowledge and make promises that can be delivered. In this workshop, we create a 60-minute laboratory to explore what is possible when we are grounded in our bodies and in gratitude for this one wild life we get to live. Get ready to plan, speak, and act upon the vision you create for your life. Starting the weekend with the mindset and relationships activated through this workshop is a GAME CHANGER.</p>',
@@ -328,6 +369,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS3-01',
+  location: 'Lincoln Hall Theater',
   session: 'WORKSHOP_SESSION_03',
   title: 'Freshman Workshop',
   description: '<p>FRESHMEN MUST TAKE THIS WORKSHOP</p><p>FRESHMEN ONLY</p><p>This is an opportunity for freshmen to network and connect with one another. As freshmen, it is important to create new and meaningful relationships to foster personal and professional development. We have some fun activities planned and we look forward to seeing you guys soon!</p>',
@@ -336,6 +378,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS3-02',
+  location: 'Noyes Laboratory 100',
   session: 'WORKSHOP_SESSION_03',
   title: 'Define Your Destiny: STEM (Science, Technology, Engineering and Mathematics)',
   description: '<p>In line with this year\'s theme, FACT is introducing a series of panels for our 3rd session workshops! We\'ll be having professionals in each field answering the questions YOU want to know! The full slate of panelists will be revealed soon, so stay tuned! This panel is dedicated to the STEM field.</p>',
@@ -344,6 +387,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS3-03',
+  location: 'Gregory Hall 112',
   session: 'WORKSHOP_SESSION_03',
   title: 'Define Your Destiny: Healthcare',
   description: '<p>In line with this year\'s theme, FACT is introducing a series of panels for our 3rd session workshops! We\'ll be having professionals in each field answering the questions YOU want to know! The full slate of panelists will be revealed soon, so stay tuned! This panel is dedicated to the Healthcare field.</p>',
@@ -352,6 +396,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS3-04',
+  location: 'Lincoln Hall 1002',
   session: 'WORKSHOP_SESSION_03',
   title: 'Define Your Destiny: Education & Politics',
   description: '<p>In line with this year\'s theme, FACT is introducing a series of panels for our 3rd session workshops! We\'ll be having professionals in each field answering the questions YOU want to know! The full slate of panelists will be revealed soon, so stay tuned! This panel is dedicated to Education & Politics!</p>',
@@ -360,6 +405,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS3-05',
+  location: 'Gregory Hall 100',
   session: 'WORKSHOP_SESSION_03',
   title: 'Define Your Destiny: Media & The Arts',
   description: '<p>In line with this year\'s theme, FACT is introducing a series of panels for our 3rd session workshops! We\'ll be having professionals in each field answering the questions YOU want to know! The full slate of panelists will be revealed soon, so stay tuned! This panel is dedicated to Media & the Arts.</p>',
@@ -368,6 +414,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS3-06',
+  location: 'Lincoln Hall 1000',
   session: 'WORKSHOP_SESSION_03',
   title: 'Define Your Destiny: Business & Finance',
   description: '<p>In line with this year\'s theme, FACT is introducing a series of panels for our 3rd session workshops! We\'ll be having professionals in each field answering the questions YOU want to know! The full slate of panelists will be revealed soon, so stay tuned! This panel is dedicated to Business & Finance.</p>',

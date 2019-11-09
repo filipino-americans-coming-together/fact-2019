@@ -55,7 +55,7 @@ const WorkshopFacilitator = styled.h5`
 
 const WorkshopLocation = styled.h6`
   font-family: 'Open Sans';
-  font-weight: 400;
+  font-weight: 600;
 `
 
 const WorkshopDescription = styled.p`
@@ -107,13 +107,9 @@ const WorkshopSession = ({ workshop }) => {
             {workshop.title}
           </WorkshopTitle>
           <WorkshopFacilitator className='text-black-50 mb-3'>{workshop.name}</WorkshopFacilitator>
+          <WorkshopLocation className='text-black-50'>{workshop.location}</WorkshopLocation>
         </div>
       </SessionHeader> 
-      {
-        workshop.location && (
-          <WorkshopLocation>{workshop.location}</WorkshopLocation>
-        )
-      }
       <WorkshopDescription className='mb-4' dangerouslySetInnerHTML={createMarkup(description)}/>
       {
         isSelected && (
